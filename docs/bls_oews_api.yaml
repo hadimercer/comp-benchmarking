@@ -1,0 +1,449 @@
+openapi: 3.0.3
+
+info:
+  title: BLS OEWS API Integration — TechNova Compensation Dashboard
+  version: 1.0.0
+  description: |
+    ## Overview
+    This specification documents the integration between TechNova's compensation
+    data pipeline and the U.S. Bureau of Labor Statistics (BLS) Occupational
+    Employment and Wage Statistics (OEWS) public API (v2).
+
+    The pipeline calls this API quarterly to retrieve wage percentile data
+    (P10, P25, P50, P75, P90, annual mean) for a defined set of Standard
+    Occupational Classification (SOC) codes, filtered by U.S. Metropolitan
+    Statistical Area (MSA). Retrieved data is stored in TechNova's PostgreSQL
+    `bls_wage_data` table and surfaced in the Power BI compensation dashboard.
+
+    ## Traceability
+    - **FR-01** — API pull: wage percentiles + MSA filter
+    - **FR-02** — Quarterly manual trigger, no-dev run procedure
+    - **FR-03** — Run log: timestamp + record count + status
+    - **FR-04** — Schema change + HTTP error detection
+    - **OBJ-02** — Establish a single source of truth for market benchmarking
+
+    ## Authentication
+    The BLS public API supports two access tiers:
+    - **Public (unauthenticated):** 25 series per request, 500 daily requests
+    - **Registered (API key):** 50 series per request, 500 daily requests
+
+    TechNova uses a registered key passed in the JSON request body as
+    `registrationkey`. The key is stored as the environment variable
+    `BLS_REGISTRATION_KEY` and is never committed to version control (NFR-02c).
+
+    ## Rate Limiting
+    - Maximum 500 API requests per day (registered tier)
+    - Maximum 50 series IDs per request batch
+    - TechNova pipeline batches series in groups of 50 to stay within limits
+    - Pipeline execution is scheduled outside business hours by default (NFR-03b)
+
+    ## Series ID Format
+    BLS OEWS series IDs follow a 25-character format:
+    ```
+    O E U {area_type} {area_code} {industry} {occupation} {data_type}
+    ```
+    Example: `OEUM004790000000011211204`
+    - `OEU` — OEWS survey prefix
+    - `M` (position 4) — MSA-level geography
+    - `0047900` — MSA code (Washington-Arlington-Alexandria DC-VA-MD-WV)
+    - `000000` — Cross-industry (all industries)
+    - `11211` — SOC code (without hyphen)
+    - `204` — Data type code (annual mean wage = 001, P25 = 204, etc.)
+
+    ## Contact
+    **Project:** TechNova Compensation & Market Benchmarking Dashboard
+    **Document ID:** FRD-COMP-001 | FR-17
+    **Prepared by:** Business Analyst — BA Portfolio Project 2
+    **Date:** February 2026
+
+  contact:
+    name: TechNova Total Rewards
+    url: https://github.com/hadimercer/comp-benchmarking
+
+  license:
+    name: BLS Data — Public Domain
+    url: https://www.bls.gov/developers/api_faqs.htm
+
+servers:
+  - url: https://api.bls.gov/publicAPI/v2
+    description: BLS Public API v2 — Production
+
+tags:
+  - name: Time Series
+    description: |
+      Retrieve wage data for one or more BLS series IDs in a single batched
+      request. This is the only endpoint used by TechNova's pipeline.
+  - name: Health
+    description: Connectivity and availability checks
+
+paths:
+
+  /timeseries/data/:
+    post:
+      tags:
+        - Time Series
+      operationId: getTimeSeriesData
+      summary: Retrieve wage data for a batch of BLS series IDs
+      description: |
+        Fetches OEWS wage data for up to 50 series IDs in a single POST request.
+        TechNova's pipeline uses this endpoint to retrieve annual mean wage and
+        wage percentiles (P10, P25, P50, P75, P90) for each combination of
+        SOC code × MSA code × survey year.
+
+        ### TechNova Pipeline Behaviour
+        - Series IDs are constructed from SOC codes (from `job_soc_crosswalk`)
+          and MSA codes (from the `employees` table office locations)
+        - Requests are batched in groups of 50 series (registered key limit)
+        - Each response is parsed and upserted into `bls_wage_data`
+        - A run log entry is written to `pipeline_run_log` after each batch
+        - On HTTP error or schema change, the pipeline fails loudly without
+          writing partial data (NFR-01a, FR-04)
+
+        ### Data Type Codes Used
+        | Code | Description         | Column in bls_wage_data |
+        |------|---------------------|-------------------------|
+        | 001  | Annual mean wage    | annual_mean             |
+        | 202  | 10th percentile     | pct_10                  |
+        | 204  | 25th percentile     | pct_25                  |
+        | 206  | 50th percentile     | pct_50                  |
+        | 208  | 75th percentile     | pct_75                  |
+        | 209  | 90th percentile     | pct_90                  |
+
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TimeSeriesRequest'
+            examples:
+              single_soc_single_msa:
+                summary: Single SOC code, single MSA (Austin TX)
+                value:
+                  seriesid:
+                    - "OEUM001242000000015125201"
+                    - "OEUM001242000000015125204"
+                    - "OEUM001242000000015125206"
+                    - "OEUM001242000000015125208"
+                  startyear: "2024"
+                  endyear: "2024"
+                  registrationkey: "YOUR_BLS_REGISTRATION_KEY"
+              multi_soc_multi_msa_batch:
+                summary: Multi-SOC, multi-MSA batch (up to 50 series)
+                value:
+                  seriesid:
+                    - "OEUM001242000000015125201"
+                    - "OEUM001242000000015125204"
+                    - "OEUM001242000000015125206"
+                    - "OEUM001242000000015125208"
+                    - "OEUM004790000000015125201"
+                    - "OEUM004790000000015125204"
+                    - "OEUM004790000000015125206"
+                    - "OEUM004790000000015125208"
+                  startyear: "2024"
+                  endyear: "2024"
+                  registrationkey: "YOUR_BLS_REGISTRATION_KEY"
+              without_registration_key:
+                summary: Public tier request (no key — 25 series max)
+                value:
+                  seriesid:
+                    - "OEUM001242000000015125206"
+                  startyear: "2024"
+                  endyear: "2024"
+
+      responses:
+        '200':
+          description: |
+            Successful response. Note: The BLS API returns HTTP 200 even for
+            logical errors (e.g. no data found, invalid series ID). The pipeline
+            inspects `status` and `message` fields to detect these cases (FR-04).
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TimeSeriesResponse'
+              examples:
+                success_with_data:
+                  summary: Successful response with wage data
+                  value:
+                    status: "REQUEST_SUCCEEDED"
+                    responseTime: 142
+                    message: []
+                    Results:
+                      series:
+                        - seriesID: "OEUM001242000000015125206"
+                          data:
+                            - year: "2024"
+                              period: "A01"
+                              periodName: "Annual"
+                              value: "124272"
+                              footnotes:
+                                - code: ""
+                                  text: ""
+                success_no_data:
+                  summary: Request succeeded but no data returned for series
+                  value:
+                    status: "REQUEST_SUCCEEDED"
+                    responseTime: 98
+                    message:
+                      - "No Data Available for Series OEUM001242000000099999206"
+                    Results:
+                      series:
+                        - seriesID: "OEUM001242000000099999206"
+                          data: []
+                invalid_series:
+                  summary: Invalid series ID format
+                  value:
+                    status: "REQUEST_FAILED"
+                    responseTime: 45
+                    message:
+                      - "Series does not exist"
+                    Results: {}
+
+        '400':
+          description: |
+            Bad request — malformed JSON body, missing required fields,
+            or series count exceeds the tier limit (25 public / 50 registered).
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+              example:
+                status: "REQUEST_FAILED"
+                responseTime: 12
+                message:
+                  - "Too many series requested. Maximum is 50 for registered users."
+                Results: {}
+
+        '429':
+          description: |
+            Rate limit exceeded — 500 daily requests consumed.
+            TechNova pipeline behaviour: preserve last-known-good dataset,
+            log the failure, and do not overwrite existing bls_wage_data (NFR-03c).
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+              example:
+                status: "REQUEST_FAILED"
+                responseTime: 8
+                message:
+                  - "Daily request limit exceeded. Limit resets at midnight Eastern time."
+                Results: {}
+
+        '500':
+          description: |
+            BLS API internal server error.
+            TechNova pipeline behaviour: log failure to pipeline_run_log
+            with status=FAILED and error_message, preserve existing data.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+components:
+
+  schemas:
+
+    TimeSeriesRequest:
+      type: object
+      required:
+        - seriesid
+        - startyear
+        - endyear
+      properties:
+        seriesid:
+          type: array
+          description: |
+            Array of BLS series IDs to retrieve. Maximum 50 for registered
+            users, 25 for public (unauthenticated) requests.
+            Each ID is a 25-character string following the OEWS series format.
+          items:
+            type: string
+            pattern: '^OEU[A-Z][0-9]{7}[0-9]{6}[0-9]{5}[0-9]{3}$'
+            example: "OEUM001242000000015125206"
+          minItems: 1
+          maxItems: 50
+          example:
+            - "OEUM001242000000015125201"
+            - "OEUM001242000000015125204"
+            - "OEUM001242000000015125206"
+            - "OEUM001242000000015125208"
+        startyear:
+          type: string
+          description: Start year for data retrieval (4-digit year string).
+          pattern: '^\d{4}$'
+          example: "2024"
+        endyear:
+          type: string
+          description: |
+            End year for data retrieval (4-digit year string).
+            TechNova pipeline sets startyear = endyear = current survey year
+            to retrieve a single year of data per run.
+          pattern: '^\d{4}$'
+          example: "2024"
+        registrationkey:
+          type: string
+          description: |
+            BLS API registration key. Optional for public tier (25 series max).
+            Required for registered tier (50 series max).
+            Stored as environment variable BLS_REGISTRATION_KEY — never
+            hardcoded or committed to version control (NFR-02c).
+          example: "YOUR_BLS_REGISTRATION_KEY"
+
+    TimeSeriesResponse:
+      type: object
+      properties:
+        status:
+          type: string
+          description: |
+            Top-level request status returned by BLS API.
+            Note: HTTP 200 is returned even for logical failures —
+            inspect this field to determine actual success.
+          enum:
+            - REQUEST_SUCCEEDED
+            - REQUEST_FAILED
+          example: "REQUEST_SUCCEEDED"
+        responseTime:
+          type: integer
+          description: Server-side processing time in milliseconds.
+          example: 142
+        message:
+          type: array
+          description: |
+            Array of informational or error messages. Empty array on clean
+            success. TechNova pipeline checks this field for unexpected
+            messages and logs them as warnings (FR-04).
+          items:
+            type: string
+          example: []
+        Results:
+          type: object
+          properties:
+            series:
+              type: array
+              description: Array of series result objects, one per requested series ID.
+              items:
+                $ref: '#/components/schemas/SeriesResult'
+
+    SeriesResult:
+      type: object
+      properties:
+        seriesID:
+          type: string
+          description: The 25-character BLS series ID for this result.
+          example: "OEUM001242000000015125206"
+        data:
+          type: array
+          description: |
+            Array of data observations for this series. For TechNova's pipeline,
+            each series returns a single annual observation (period A01).
+            Empty array if no data is available for the requested year.
+          items:
+            $ref: '#/components/schemas/DataPoint'
+
+    DataPoint:
+      type: object
+      properties:
+        year:
+          type: string
+          description: Survey reference year (4-digit string).
+          example: "2024"
+        period:
+          type: string
+          description: |
+            Period code. TechNova uses annual data only.
+            A01 = Annual average.
+          example: "A01"
+        periodName:
+          type: string
+          description: Human-readable period label.
+          example: "Annual"
+        value:
+          type: string
+          description: |
+            Wage value as a string (requires numeric conversion).
+            Represents annual wages in USD. May be "-" if data is suppressed
+            by BLS for confidentiality. TechNova pipeline treats "-" as NULL.
+          example: "124272"
+        footnotes:
+          type: array
+          description: |
+            Array of footnote objects. Empty footnotes indicate clean data.
+            Non-empty footnotes may indicate suppressed or estimated values.
+          items:
+            type: object
+            properties:
+              code:
+                type: string
+                description: BLS footnote code (empty string if no footnote).
+                example: ""
+              text:
+                type: string
+                description: Human-readable footnote text.
+                example: ""
+
+    ErrorResponse:
+      type: object
+      properties:
+        status:
+          type: string
+          enum:
+            - REQUEST_FAILED
+          example: "REQUEST_FAILED"
+        responseTime:
+          type: integer
+          example: 12
+        message:
+          type: array
+          items:
+            type: string
+          example:
+            - "Too many series requested."
+        Results:
+          type: object
+          example: {}
+
+  securitySchemes:
+    BLSRegistrationKey:
+      type: apiKey
+      in: header
+      name: registrationkey
+      description: |
+        BLS API registration key passed in the JSON request body
+        (not a standard HTTP header — included here for documentation
+        purposes only). Stored as environment variable BLS_REGISTRATION_KEY.
+        Register at: https://data.bls.gov/registrationEngine/
+
+x-technova-pipeline-notes:
+  pipeline_file: pipeline/bls_pipeline.py
+  data_destination: PostgreSQL table — bls_wage_data
+  run_trigger: Manual — initiated by Total Rewards administrator via Data Management page
+  run_frequency: Quarterly (aligned to BLS OEWS publication cycle)
+  batch_size: 50 series per request (registered key)
+  survey_year_env: BLS_SURVEY_YEAR (defaults to 2024)
+  base_url_env: BLS_API_BASE_URL (defaults to https://api.bls.gov/publicAPI/v2)
+  auth_env: BLS_REGISTRATION_KEY
+  error_handling: Fail loudly — no partial writes on validation or HTTP failure (NFR-01a)
+  rate_limit_behaviour: Preserve last-known-good dataset on 429 or 500 (NFR-03c)
+  run_logging: Every run logged to pipeline_run_log with timestamp, status, record count (FR-03)
+  msa_codes_used:
+    - code: "0012420"
+      name: Austin-Round Rock-Georgetown TX
+    - code: "0035620"
+      name: New York-Newark-Jersey City NY-NJ-PA
+    - code: "0019820"
+      name: Denver-Aurora-Lakewood CO
+    - code: "0041860"
+      name: San Francisco-Oakland-Fremont CA
+    - code: "0047900"
+      name: Washington-Arlington-Alexandria DC-VA-MD-WV
+  soc_codes_sample:
+    - code: "15-1252"
+      title: Software Developers
+    - code: "15-1211"
+      title: Computer Systems Analysts
+    - code: "11-3021"
+      title: Computer and Information Systems Managers
+    - code: "15-2051"
+      title: Data Scientists
+    - code: "29-9021"
+      title: Health Information Technologists
