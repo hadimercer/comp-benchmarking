@@ -1,0 +1,801 @@
+employee_id,first_name,last_name,gender,hire_date,job_family,role_title,job_level,department,office_location,msa_name,msa_code,annual_base_salary,salary_currency,data_as_of_date
+EMP-1068,Kenneth,Adams,Male,2017-12-21,Software Engineering,Software Engineer – Mobile,L5,Engineering – Data Systems,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,276500,USD,2025-01-01
+EMP-1493,Ronald,Hernandez,Male,2021-04-24,DevOps / Platform / SRE,Platform Engineer,L4,Infrastructure & SRE,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,228500,USD,2025-01-01
+EMP-1754,Eric,Kim,Male,2023-12-02,Corporate,Financial Analyst,L3,Legal & Compliance,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,130500,USD,2025-01-01
+EMP-1163,Richard,Castillo,Male,2018-08-22,Software Engineering,Software Engineer – Full-Stack,L4,Engineering – Consumer Product,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,229500,USD,2025-01-01
+EMP-1051,Gary,Gray,Male,2023-04-09,Software Engineering,Software Engineer – Backend,L2,Engineering – Data Systems,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,123000,USD,2025-01-01
+EMP-1542,Matthew,Peterson,Male,2022-04-03,DevOps / Platform / SRE,Site Reliability Engineer,L4,Infrastructure & SRE,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,209000,USD,2025-01-01
+EMP-1721,Carol,Rodriguez,Female,2023-08-17,Corporate,HR Specialist,L2,Operations,Denver CO,"Denver-Aurora-Lakewood, CO",19740,84500,USD,2025-01-01
+EMP-1251,Ronald,Davis,Male,2024-06-24,Data & Analytics,Data Scientist,L3,Data Science,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,180000,USD,2025-01-01
+EMP-1727,Joseph,Rivera,Male,2020-01-22,Corporate,Paralegal,L2,Legal & Compliance,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,89500,USD,2025-01-01
+EMP-1147,Amanda,Rogers,Female,2017-06-04,Software Engineering,Software Engineer – Frontend,L3,Engineering – Core Platform,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,132500,USD,2025-01-01
+EMP-1122,Edward,Walker,Male,2017-03-06,Software Engineering,QA Engineer / SDET,L1,Engineering – Consumer Product,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,93000,USD,2025-01-01
+EMP-1528,Timothy,Carter,Male,2017-11-21,DevOps / Platform / SRE,DevOps Engineer,L4,Infrastructure & SRE,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,203500,USD,2025-01-01
+EMP-1093,Nicholas,Morris,Male,2023-03-08,Software Engineering,QA Engineer / SDET,L2,Engineering – Consumer Product,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,102000,USD,2025-01-01
+EMP-1683,Gary,Garcia,Male,2017-08-03,Sales & Account Management,Sales Development Rep,L1,Customer Success,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,81000,USD,2025-01-01
+EMP-1090,Laura,Foster,Female,2019-12-30,Software Engineering,Software Engineer – Frontend,L1,Engineering – Consumer Product,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,92500,USD,2025-01-01
+EMP-1420,Andrew,James,Male,2024-11-25,Clinical Informatics / Health IT,Interoperability Analyst,L3,Implementation Services,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,152000,USD,2025-01-01
+EMP-1797,Laura,Miller,Female,2017-08-12,Corporate,Accountant,L2,Finance,Denver CO,"Denver-Aurora-Lakewood, CO",19740,71500,USD,2025-01-01
+EMP-1523,Edward,Adams,Male,2022-03-29,DevOps / Platform / SRE,Site Reliability Engineer,L3,Infrastructure & SRE,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,159500,USD,2025-01-01
+EMP-1137,Edward,Cruz,Male,2024-08-09,Software Engineering,Software Engineer – Mobile,L3,Engineering – Mobile,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,168000,USD,2025-01-01
+EMP-1296,Joseph,Clark,Male,2017-09-01,Data & Analytics,Data Scientist,L3,Data Science,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,140000,USD,2025-01-01
+EMP-1773,Michelle,Nelson,Female,2021-05-17,Corporate,Financial Analyst,L1,Finance,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,57500,USD,2025-01-01
+EMP-1364,Sharon,James,Female,2021-11-14,Clinical Informatics / Health IT,Senior Clinical Informatics Analyst,L4,Clinical Informatics,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,171500,USD,2025-01-01
+EMP-1350,Michael,Alvarez,Male,2023-05-15,Product Management,Product Manager,L2,Product – Clinical,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,104500,USD,2025-01-01
+EMP-1715,Sandra,Collins,Female,2020-08-29,Sales & Account Management,Customer Success Manager,L2,Sales – Enterprise,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,114000,USD,2025-01-01
+EMP-1292,Joshua,Perez,Male,2023-05-06,Data & Analytics,BI Analyst,L1,Data Science,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,109000,USD,2025-01-01
+EMP-1045,Betty,Diaz,Female,2021-04-02,Software Engineering,Software Engineer – Mobile,L2,Engineering – Consumer Product,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,109500,USD,2025-01-01
+EMP-1360,Richard,Sanders,Male,2021-04-30,Clinical Informatics / Health IT,Clinical Informatics Analyst,L1,Health IT,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,63000,USD,2025-01-01
+EMP-1267,Morgan,Howard,Prefer not to say,2024-09-08,Data & Analytics,Analytics Engineer,L4,Business Intelligence,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,172000,USD,2025-01-01
+EMP-1073,Kevin,Allen,Male,2019-02-28,Software Engineering,Principal Software Engineer,L6,Engineering – Data Systems,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,346500,USD,2025-01-01
+EMP-1590,Cameron,Peterson,Non-binary,2021-08-21,IT / Systems Administration,IT Analyst,L2,IT Operations,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,77000,USD,2025-01-01
+EMP-1057,Anna,Ward,Female,2020-01-23,Software Engineering,QA Engineer / SDET,L4,Engineering – Mobile,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,225500,USD,2025-01-01
+EMP-1580,Brian,Jackson,Male,2020-07-29,IT / Systems Administration,Systems Administrator,L3,IT Operations,Denver CO,"Denver-Aurora-Lakewood, CO",19740,102500,USD,2025-01-01
+EMP-1791,Margaret,Castillo,Female,2021-09-30,Corporate,HR Specialist,L1,Legal & Compliance,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,67500,USD,2025-01-01
+EMP-1526,Sarah,Hall,Female,2023-01-01,DevOps / Platform / SRE,Senior DevOps Engineer,L3,Platform Engineering,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,167500,USD,2025-01-01
+EMP-1391,Kenneth,Chavez,Male,2020-02-09,Clinical Informatics / Health IT,Senior Clinical Informatics Analyst,L4,Health IT,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,197000,USD,2025-01-01
+EMP-1118,Riley,Peterson,Prefer not to say,2024-03-26,Software Engineering,Software Engineer – Frontend,L2,Engineering – Data Systems,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,147000,USD,2025-01-01
+EMP-1469,Melissa,Phillips,Female,2023-08-13,UX / Design,Product Designer,L4,Design & UX,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,164000,USD,2025-01-01
+EMP-1511,Paul,Gonzalez,Male,2019-08-24,DevOps / Platform / SRE,Cloud Infrastructure Engineer,L2,Infrastructure & SRE,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,141500,USD,2025-01-01
+EMP-1227,Jacob,Davis,Male,2022-10-04,Data & Analytics,Data Analyst,L1,Business Intelligence,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,77500,USD,2025-01-01
+EMP-1344,Ashley,Wood,Female,2021-08-15,Product Management,Product Manager,L4,Product – Clinical,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,215000,USD,2025-01-01
+EMP-1578,George,Collins,Male,2019-04-27,IT / Systems Administration,Systems Administrator,L3,IT Operations,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,118500,USD,2025-01-01
+EMP-1381,Mark,Turner,Male,2022-10-17,Clinical Informatics / Health IT,Senior Clinical Informatics Analyst,L3,Health IT,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,128000,USD,2025-01-01
+EMP-1559,Richard,Cox,Male,2017-06-03,DevOps / Platform / SRE,Staff SRE,L6,Infrastructure & SRE,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,325000,USD,2025-01-01
+EMP-1240,Gary,Davis,Male,2021-09-03,Data & Analytics,Data Scientist,L2,Data Science,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,120500,USD,2025-01-01
+EMP-1622,Skyler,Foster,Prefer not to say,2018-06-24,Sales & Account Management,Customer Success Manager,L3,Sales – Enterprise,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,141000,USD,2025-01-01
+EMP-1534,Timothy,Johnson,Male,2019-10-17,DevOps / Platform / SRE,Platform Engineer,L3,Infrastructure & SRE,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,138500,USD,2025-01-01
+EMP-1358,Morgan,Chavez,Prefer not to say,2022-07-26,Clinical Informatics / Health IT,Clinical Informatics Analyst,L2,Clinical Informatics,Denver CO,"Denver-Aurora-Lakewood, CO",19740,104000,USD,2025-01-01
+EMP-1373,Robert,Parker,Male,2024-08-30,Clinical Informatics / Health IT,Interoperability Analyst,L3,Health IT,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,150500,USD,2025-01-01
+EMP-1236,Morgan,Patel,Prefer not to say,2023-06-24,Data & Analytics,Analytics Engineer,L4,Data Science,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,231500,USD,2025-01-01
+EMP-1722,Gary,Alvarez,Male,2018-07-15,Corporate,HR Specialist,L2,Finance,Denver CO,"Denver-Aurora-Lakewood, CO",19740,77500,USD,2025-01-01
+EMP-1716,Kimberly,Sanchez,Female,2023-01-15,Sales & Account Management,Account Manager,L2,Sales – Mid-Market,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,98500,USD,2025-01-01
+EMP-1665,Anna,Lewis,Female,2024-09-24,Sales & Account Management,Account Manager,L4,Sales – Mid-Market,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,143000,USD,2025-01-01
+EMP-1188,Joshua,Hernandez,Male,2024-02-15,Software Engineering,Software Engineer – Full-Stack,L1,Engineering – Data Systems,Denver CO,"Denver-Aurora-Lakewood, CO",19740,81500,USD,2025-01-01
+EMP-1562,David,Mendoza,Male,2021-05-29,DevOps / Platform / SRE,Platform Engineer,L3,Infrastructure & SRE,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,172000,USD,2025-01-01
+EMP-1178,Robert,Ward,Male,2022-01-17,Software Engineering,Software Engineer – Backend,L2,Engineering – Data Systems,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,100000,USD,2025-01-01
+EMP-1314,Ashley,Cook,Female,2019-09-15,Product Management,Product Manager,L2,Product – Consumer,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,126500,USD,2025-01-01
+EMP-1396,Brenda,Foster,Female,2024-08-16,Clinical Informatics / Health IT,Senior Clinical Informatics Analyst,L3,Health IT,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,133500,USD,2025-01-01
+EMP-1668,Richard,Brooks,Male,2022-06-16,Sales & Account Management,Sales Engineer,L4,Sales – Enterprise,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,198500,USD,2025-01-01
+EMP-1613,Michael,Morales,Male,2018-09-24,IT / Systems Administration,Systems Administrator,L2,IT Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,106000,USD,2025-01-01
+EMP-1239,Kevin,Carter,Male,2023-01-13,Data & Analytics,Data Scientist,L3,Business Intelligence,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,125500,USD,2025-01-01
+EMP-1700,Margaret,Ross,Female,2019-07-13,Sales & Account Management,Sales Development Rep,L2,Sales – Mid-Market,Denver CO,"Denver-Aurora-Lakewood, CO",19740,97000,USD,2025-01-01
+EMP-1778,Donna,Lopez,Female,2019-08-23,Corporate,HR Specialist,L3,Legal & Compliance,Denver CO,"Denver-Aurora-Lakewood, CO",19740,107500,USD,2025-01-01
+EMP-1001,Michael,Reed,Male,2024-04-15,Software Engineering,Software Engineer – Frontend,L1,Engineering – Mobile,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,101500,USD,2025-01-01
+EMP-1585,Dakota,Richardson,Prefer not to say,2020-08-23,IT / Systems Administration,IT Analyst,L2,IT Operations,Denver CO,"Denver-Aurora-Lakewood, CO",19740,77500,USD,2025-01-01
+EMP-1233,Kenneth,Harris,Male,2018-04-08,Data & Analytics,Data Engineer,L4,Data & Analytics,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,251000,USD,2025-01-01
+EMP-1566,Ronald,Hall,Male,2020-11-12,IT / Systems Administration,Network Administrator,L3,IT Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,116000,USD,2025-01-01
+EMP-1164,Kathleen,Collins,Female,2017-03-19,Software Engineering,Software Engineer – Backend,L4,Engineering – Data Systems,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,216500,USD,2025-01-01
+EMP-1543,Thomas,Collins,Male,2019-12-15,DevOps / Platform / SRE,Cloud Infrastructure Engineer,L3,Infrastructure & SRE,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,144500,USD,2025-01-01
+EMP-1698,Ronald,Stewart,Male,2021-02-06,Sales & Account Management,Sales Engineer,L4,Sales – Mid-Market,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,168500,USD,2025-01-01
+EMP-1034,Jacob,Bailey,Male,2023-04-17,Software Engineering,Software Engineer – Backend,L3,Engineering – Core Platform,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,140500,USD,2025-01-01
+EMP-1112,Jason,Reed,Male,2021-06-05,Software Engineering,Software Engineer – Frontend,L1,Engineering – Core Platform,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,90000,USD,2025-01-01
+EMP-1598,William,Miller,Male,2019-01-01,IT / Systems Administration,IT Analyst,L3,IT Operations,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,97500,USD,2025-01-01
+EMP-1380,Paul,Moore,Male,2021-12-20,Clinical Informatics / Health IT,Senior Clinical Informatics Analyst,L3,Health IT,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,119500,USD,2025-01-01
+EMP-1550,Mark,Ortiz,Male,2019-08-05,DevOps / Platform / SRE,Platform Engineer,L4,Infrastructure & SRE,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,177500,USD,2025-01-01
+EMP-1299,Stephanie,Murphy,Female,2024-02-04,Data & Analytics,BI Analyst,L1,Business Intelligence,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,73000,USD,2025-01-01
+EMP-1732,Michael,Morales,Male,2024-10-01,Corporate,Financial Analyst,L3,Legal & Compliance,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,119000,USD,2025-01-01
+EMP-1552,Sharon,Wilson,Female,2019-01-09,DevOps / Platform / SRE,Cloud Infrastructure Engineer,L3,Infrastructure & SRE,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,122500,USD,2025-01-01
+EMP-1076,Drew,Ross,Non-binary,2017-02-20,Software Engineering,Software Engineer – Backend,L1,Engineering – Data Systems,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,107000,USD,2025-01-01
+EMP-1139,Ryan,Thompson,Male,2022-12-22,Software Engineering,Software Engineer – Mobile,L2,Engineering – Consumer Product,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,132500,USD,2025-01-01
+EMP-1461,Paul,Richardson,Male,2019-03-07,UX / Design,Senior UX Designer,L4,Design & UX,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,185500,USD,2025-01-01
+EMP-1595,Eric,Cook,Male,2017-01-24,IT / Systems Administration,Senior Systems Administrator,L4,IT Operations,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,138500,USD,2025-01-01
+EMP-1384,Charles,Ruiz,Male,2021-03-06,Clinical Informatics / Health IT,Clinical Informatics Analyst,L2,Health IT,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,109500,USD,2025-01-01
+EMP-1318,Karen,Scott,Female,2017-11-20,Product Management,Product Manager,L2,Product – Clinical,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,92500,USD,2025-01-01
+EMP-1288,Joseph,Howard,Male,2019-01-31,Data & Analytics,Data Analyst,L3,Business Intelligence,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,165500,USD,2025-01-01
+EMP-1728,John,Gutierrez,Male,2024-01-17,Corporate,Financial Analyst,L3,Finance,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,109500,USD,2025-01-01
+EMP-1100,Deborah,Green,Female,2022-06-22,Software Engineering,Software Engineer – Mobile,L4,Engineering – Core Platform,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,195500,USD,2025-01-01
+EMP-1203,George,Mendoza,Male,2021-09-03,Data & Analytics,Data Engineer,L3,Data Science,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,156000,USD,2025-01-01
+EMP-1235,Robert,Evans,Male,2023-01-20,Data & Analytics,Data Analyst,L2,Data & Analytics,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,103000,USD,2025-01-01
+EMP-1111,Nicholas,Nguyen,Male,2020-10-19,Software Engineering,Software Engineer – Frontend,L4,Engineering – Core Platform,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,210500,USD,2025-01-01
+EMP-1594,Jacob,Torres,Male,2018-04-27,IT / Systems Administration,IT Support Specialist,L2,IT Operations,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,94500,USD,2025-01-01
+EMP-1742,Charles,Roberts,Male,2023-09-26,Corporate,Accountant,L3,Legal & Compliance,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,117500,USD,2025-01-01
+EMP-1097,Deborah,Roberts,Female,2024-04-24,Software Engineering,Software Engineer – Full-Stack,L3,Engineering – Consumer Product,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,192500,USD,2025-01-01
+EMP-1730,Joshua,Mitchell,Male,2021-08-15,Corporate,HR Specialist,L2,Legal & Compliance,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,87000,USD,2025-01-01
+EMP-1127,Brenda,Sanders,Female,2019-07-25,Software Engineering,Software Engineer – Frontend,L3,Engineering – Mobile,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,180000,USD,2025-01-01
+EMP-1197,Kathleen,Torres,Female,2018-03-17,Software Engineering,Software Engineer – Backend,L2,Engineering – Mobile,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,107500,USD,2025-01-01
+EMP-1588,Jason,Hill,Male,2020-03-17,IT / Systems Administration,Network Administrator,L3,IT Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,130000,USD,2025-01-01
+EMP-1370,Paul,Bailey,Male,2021-05-05,Clinical Informatics / Health IT,Clinical Informatics Analyst,L3,Implementation Services,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,128000,USD,2025-01-01
+EMP-1389,Gary,Hill,Male,2023-12-30,Clinical Informatics / Health IT,Health IT Specialist,L2,Health IT,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,126500,USD,2025-01-01
+EMP-1623,Gary,Morris,Male,2019-07-06,Sales & Account Management,Customer Success Manager,L4,Sales – Enterprise,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,175000,USD,2025-01-01
+EMP-1434,Brian,Rogers,Male,2021-09-11,Clinical Informatics / Health IT,EHR Implementation Analyst,L1,Implementation Services,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,89000,USD,2025-01-01
+EMP-1529,Kimberly,Torres,Female,2022-12-19,DevOps / Platform / SRE,Site Reliability Engineer,L3,Infrastructure & SRE,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,153000,USD,2025-01-01
+EMP-1268,Daniel,Cruz,Male,2020-05-12,Data & Analytics,Data Analyst,L2,Business Intelligence,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,133500,USD,2025-01-01
+EMP-1553,Amanda,Green,Female,2020-08-22,DevOps / Platform / SRE,Platform Engineer,L4,Infrastructure & SRE,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,216000,USD,2025-01-01
+EMP-1635,Stephanie,Brooks,Female,2021-04-17,Sales & Account Management,Sales Engineer,L5,Sales – Mid-Market,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,237000,USD,2025-01-01
+EMP-1343,Nancy,Rivera,Female,2019-02-06,Product Management,Senior Product Manager,L4,Product – Consumer,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,211500,USD,2025-01-01
+EMP-1490,Rowan,Hall,Prefer not to say,2021-06-19,DevOps / Platform / SRE,DevOps Engineer,L3,Platform Engineering,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,173500,USD,2025-01-01
+EMP-1142,Elizabeth,Cruz,Female,2023-08-10,Software Engineering,QA Engineer / SDET,L3,Engineering – Mobile,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,152500,USD,2025-01-01
+EMP-1755,Sarah,Campbell,Female,2023-07-20,Corporate,General Operations Manager,L4,People Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,154000,USD,2025-01-01
+EMP-1530,Gary,Watson,Male,2024-11-09,DevOps / Platform / SRE,Platform Engineer,L5,Infrastructure & SRE,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,284000,USD,2025-01-01
+EMP-1241,William,Collins,Male,2018-01-14,Data & Analytics,Data Engineer,L2,Data Science,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,148000,USD,2025-01-01
+EMP-1069,Deborah,Baker,Female,2020-08-24,Software Engineering,QA Engineer / SDET,L2,Engineering – Consumer Product,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,121000,USD,2025-01-01
+EMP-1208,George,Peterson,Male,2024-08-20,Data & Analytics,Data Engineer,L2,Data Science,Denver CO,"Denver-Aurora-Lakewood, CO",19740,108000,USD,2025-01-01
+EMP-1315,Ronald,Green,Male,2023-05-18,Product Management,Product Manager,L2,Product – Consumer,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,108000,USD,2025-01-01
+EMP-1141,Charles,Evans,Male,2020-08-23,Software Engineering,Software Engineer – Frontend,L3,Engineering – Consumer Product,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,121000,USD,2025-01-01
+EMP-1593,Pamela,Bennett,Female,2018-10-27,IT / Systems Administration,Systems Administrator,L2,IT Operations,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,90000,USD,2025-01-01
+EMP-1516,Casey,Rivera,Prefer not to say,2022-09-22,DevOps / Platform / SRE,Site Reliability Engineer,L4,Infrastructure & SRE,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,208000,USD,2025-01-01
+EMP-1231,Anna,Moore,Female,2019-01-02,Data & Analytics,BI Analyst,L3,Data Science,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,159500,USD,2025-01-01
+EMP-1067,Thomas,Cruz,Male,2022-11-08,Software Engineering,Software Engineer – Frontend,L2,Engineering – Data Systems,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,115000,USD,2025-01-01
+EMP-1634,Linda,Smith,Female,2021-01-11,Sales & Account Management,Sales Engineer,L5,Sales – Enterprise,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,254000,USD,2025-01-01
+EMP-1415,Robert,Johnson,Male,2024-06-10,Clinical Informatics / Health IT,Senior Clinical Informatics Analyst,L4,Implementation Services,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,216500,USD,2025-01-01
+EMP-1281,Charles,Williams,Male,2024-04-08,Data & Analytics,Senior Data Scientist,L5,Data & Analytics,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,298500,USD,2025-01-01
+EMP-1476,James,Rogers,Male,2021-12-07,UX / Design,Senior UX Designer,L4,Design & UX,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,188000,USD,2025-01-01
+EMP-1345,Steven,Brooks,Male,2023-02-05,Product Management,Product Manager,L2,Product – Platform,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,145500,USD,2025-01-01
+EMP-1450,Ashley,Garcia,Female,2020-08-07,UX / Design,UX Designer,L2,Design & UX,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,114000,USD,2025-01-01
+EMP-1295,Steven,Clark,Male,2023-08-06,Data & Analytics,BI Analyst,L1,Data Science,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,94500,USD,2025-01-01
+EMP-1764,Matthew,Williams,Male,2022-10-16,Corporate,HRBP,L3,Finance,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,94000,USD,2025-01-01
+EMP-1657,Drew,Ramirez,Non-binary,2024-02-27,Sales & Account Management,Account Executive,L2,Sales – Enterprise,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,128500,USD,2025-01-01
+EMP-1789,Betty,Diaz,Female,2018-08-21,Corporate,Financial Analyst,L1,People Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,67500,USD,2025-01-01
+EMP-1354,Riley,Alvarez,Prefer not to say,2021-06-09,Product Management,Senior Product Manager,L5,Product – Clinical,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,270500,USD,2025-01-01
+EMP-1102,David,Nguyen,Male,2021-10-31,Software Engineering,Software Engineer – Frontend,L3,Engineering – Consumer Product,Denver CO,"Denver-Aurora-Lakewood, CO",19740,141500,USD,2025-01-01
+EMP-1082,Paul,King,Male,2024-01-05,Software Engineering,Software Engineer – Full-Stack,L3,Engineering – Consumer Product,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,143000,USD,2025-01-01
+EMP-1655,Nancy,Green,Female,2024-07-18,Sales & Account Management,Customer Success Manager,L3,Sales – Enterprise,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,142500,USD,2025-01-01
+EMP-1280,Mark,Ortiz,Male,2022-05-05,Data & Analytics,BI Analyst,L3,Data & Analytics,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,168000,USD,2025-01-01
+EMP-1467,Sarah,Cooper,Female,2024-01-11,UX / Design,Product Designer,L2,Design & UX,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,78000,USD,2025-01-01
+EMP-1666,Kevin,Evans,Male,2024-04-04,Sales & Account Management,Sales Development Rep,L2,Sales – Enterprise,Denver CO,"Denver-Aurora-Lakewood, CO",19740,84000,USD,2025-01-01
+EMP-1392,Steven,Davis,Male,2023-09-24,Clinical Informatics / Health IT,EHR Implementation Analyst,L3,Health IT,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,130000,USD,2025-01-01
+EMP-1284,Kenneth,Ross,Male,2017-09-14,Data & Analytics,Senior Data Scientist,L4,Data Science,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,237000,USD,2025-01-01
+EMP-1198,Robert,Evans,Male,2023-04-21,Software Engineering,Software Engineer – Backend,L2,Engineering – Consumer Product,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,122500,USD,2025-01-01
+EMP-1407,Robert,Carter,Male,2019-11-14,Clinical Informatics / Health IT,EHR Implementation Analyst,L2,Implementation Services,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,138500,USD,2025-01-01
+EMP-1533,Karen,Davis,Female,2021-05-27,DevOps / Platform / SRE,Platform Engineer,L4,Platform Engineering,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,206000,USD,2025-01-01
+EMP-1536,Robert,Long,Male,2022-11-04,DevOps / Platform / SRE,Platform Engineer,L4,Platform Engineering,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,235000,USD,2025-01-01
+EMP-1771,Rebecca,Campbell,Female,2018-01-05,Corporate,Paralegal,L2,Operations,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,74000,USD,2025-01-01
+EMP-1664,Pamela,Smith,Female,2022-07-03,Sales & Account Management,Customer Success Manager,L2,Sales – Mid-Market,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,87500,USD,2025-01-01
+EMP-1794,Reese,Stewart,Non-binary,2020-07-23,Corporate,FP&A Analyst,L3,Operations,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,107500,USD,2025-01-01
+EMP-1339,Susan,Stewart,Female,2018-07-27,Product Management,Principal Product Manager,L6,Product – Platform,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,248000,USD,2025-01-01
+EMP-1286,Charles,Hall,Male,2022-02-19,Data & Analytics,BI Analyst,L2,Data Science,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,129000,USD,2025-01-01
+EMP-1615,Jessica,Smith,Female,2017-06-30,IT / Systems Administration,Systems Administrator,L2,IT Operations,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,89500,USD,2025-01-01
+EMP-1429,Casey,Bailey,Prefer not to say,2024-11-15,Clinical Informatics / Health IT,Clinical Informatics Analyst,L2,Clinical Informatics,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,111000,USD,2025-01-01
+EMP-1745,Daniel,Rodriguez,Male,2019-03-27,Corporate,HR Specialist,L2,Legal & Compliance,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,70500,USD,2025-01-01
+EMP-1445,Ryan,Scott,Male,2018-06-17,UX / Design,UX Designer,L1,Design & UX,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,79500,USD,2025-01-01
+EMP-1563,Jason,Jackson,Male,2017-12-05,DevOps / Platform / SRE,Staff SRE,L5,Infrastructure & SRE,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,264500,USD,2025-01-01
+EMP-1194,Richard,Miller,Male,2021-04-23,Software Engineering,Software Engineer – Full-Stack,L2,Engineering – Mobile,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,137500,USD,2025-01-01
+EMP-1230,Rebecca,Mitchell,Female,2021-04-16,Data & Analytics,Data Scientist,L2,Business Intelligence,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,156500,USD,2025-01-01
+EMP-1512,Kathleen,Johnson,Female,2022-08-09,DevOps / Platform / SRE,Cloud Infrastructure Engineer,L2,Platform Engineering,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,110500,USD,2025-01-01
+EMP-1667,Emily,Wood,Female,2023-03-22,Sales & Account Management,Senior Account Executive,L5,Sales – Enterprise,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,220000,USD,2025-01-01
+EMP-1006,Barbara,Ward,Female,2019-09-30,Software Engineering,Software Engineer – Full-Stack,L3,Engineering – Consumer Product,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,129500,USD,2025-01-01
+EMP-1042,Amanda,Patel,Female,2022-09-26,Software Engineering,Software Engineer – Frontend,L4,Engineering – Core Platform,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,229000,USD,2025-01-01
+EMP-1169,Amanda,Walker,Female,2023-07-12,Software Engineering,Staff Software Engineer,L5,Engineering – Data Systems,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,292500,USD,2025-01-01
+EMP-1642,Nicholas,Brooks,Male,2024-07-02,Sales & Account Management,Account Manager,L2,Sales – Enterprise,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,104500,USD,2025-01-01
+EMP-1113,Dorothy,Ramos,Female,2024-02-29,Software Engineering,Software Engineer – Full-Stack,L1,Engineering – Data Systems,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,100000,USD,2025-01-01
+EMP-1719,Jacob,Myers,Male,2021-12-18,Sales & Account Management,Account Executive,L4,Sales – Mid-Market,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,187000,USD,2025-01-01
+EMP-1603,Amanda,Taylor,Female,2022-07-27,IT / Systems Administration,Systems Administrator,L4,IT Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,163500,USD,2025-01-01
+EMP-1504,Margaret,Robinson,Female,2019-10-20,DevOps / Platform / SRE,Platform Engineer,L3,Infrastructure & SRE,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,123500,USD,2025-01-01
+EMP-1335,John,Sanchez,Male,2023-07-23,Product Management,Senior Product Manager,L5,Product – Platform,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,250000,USD,2025-01-01
+EMP-1059,Ryan,Moore,Male,2019-01-15,Software Engineering,QA Engineer / SDET,L3,Engineering – Core Platform,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,145500,USD,2025-01-01
+EMP-1099,Nicholas,King,Male,2024-10-08,Software Engineering,Software Engineer – Mobile,L3,Engineering – Mobile,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,132500,USD,2025-01-01
+EMP-1256,Lisa,Hernandez,Female,2020-09-18,Data & Analytics,Senior Data Scientist,L4,Data Science,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,202500,USD,2025-01-01
+EMP-1168,Michael,Roberts,Male,2017-06-28,Software Engineering,Software Engineer – Backend,L3,Engineering – Mobile,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,185500,USD,2025-01-01
+EMP-1320,Linda,Flores,Female,2024-05-19,Product Management,Product Manager,L4,Product – Clinical,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,229000,USD,2025-01-01
+EMP-1583,Nicholas,Castillo,Male,2019-01-24,IT / Systems Administration,Systems Administrator,L3,IT Operations,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,121000,USD,2025-01-01
+EMP-1646,William,Taylor,Male,2020-02-13,Sales & Account Management,Regional Sales Director,L6,Sales – Mid-Market,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,236500,USD,2025-01-01
+EMP-1038,George,Turner,Male,2019-10-14,Software Engineering,Staff Software Engineer,L6,Engineering – Data Systems,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,352500,USD,2025-01-01
+EMP-1708,Nicholas,Mitchell,Male,2017-07-13,Sales & Account Management,Sales Development Rep,L2,Sales – Enterprise,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,129500,USD,2025-01-01
+EMP-1581,Kimberly,Martin,Female,2018-03-14,IT / Systems Administration,Senior Systems Administrator,L4,IT Operations,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,127000,USD,2025-01-01
+EMP-1277,Stephanie,Ross,Female,2021-10-30,Data & Analytics,Data Engineer,L2,Data & Analytics,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,101500,USD,2025-01-01
+EMP-1244,Margaret,Phillips,Female,2023-03-12,Data & Analytics,Principal Data Scientist,L6,Business Intelligence,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,413500,USD,2025-01-01
+EMP-1162,Amanda,Brown,Female,2021-06-12,Software Engineering,QA Engineer / SDET,L1,Engineering – Data Systems,Denver CO,"Denver-Aurora-Lakewood, CO",19740,84000,USD,2025-01-01
+EMP-1574,Anthony,Rogers,Male,2023-04-16,IT / Systems Administration,IT Analyst,L2,IT Operations,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,81500,USD,2025-01-01
+EMP-1378,Jennifer,Phillips,Female,2020-09-19,Clinical Informatics / Health IT,Senior Clinical Informatics Analyst,L3,Implementation Services,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,132500,USD,2025-01-01
+EMP-1356,Skyler,Rivera,Non-binary,2023-08-10,Clinical Informatics / Health IT,Clinical Informatics Analyst,L3,Clinical Informatics,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,117500,USD,2025-01-01
+EMP-1609,Michelle,Reed,Female,2019-05-04,IT / Systems Administration,Senior Systems Administrator,L4,IT Operations,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,153500,USD,2025-01-01
+EMP-1388,Donna,Castillo,Female,2024-03-17,Clinical Informatics / Health IT,EHR Implementation Analyst,L1,Health IT,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,107000,USD,2025-01-01
+EMP-1653,Ryan,Richardson,Male,2020-01-22,Sales & Account Management,Sales Engineer,L3,Sales – Mid-Market,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,154000,USD,2025-01-01
+EMP-1086,Matthew,Morris,Male,2021-12-17,Software Engineering,Principal Software Engineer,L6,Engineering – Data Systems,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,386000,USD,2025-01-01
+EMP-1115,Jessica,Moore,Female,2022-07-11,Software Engineering,Software Engineer – Mobile,L3,Engineering – Core Platform,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,111500,USD,2025-01-01
+EMP-1144,Thomas,Walker,Male,2019-11-15,Software Engineering,Software Engineer – Frontend,L1,Engineering – Consumer Product,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,85000,USD,2025-01-01
+EMP-1079,Laura,Edwards,Female,2021-10-23,Software Engineering,Software Engineer – Mobile,L4,Engineering – Data Systems,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,212000,USD,2025-01-01
+EMP-1221,Andrew,Roberts,Male,2019-12-30,Data & Analytics,Data Analyst,L1,Business Intelligence,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,95000,USD,2025-01-01
+EMP-1311,Mark,Lopez,Male,2018-07-28,Product Management,Senior Product Manager,L5,Product – Platform,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,232000,USD,2025-01-01
+EMP-1783,Sarah,Cox,Female,2020-08-01,Corporate,HRBP,L4,Operations,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,140500,USD,2025-01-01
+EMP-1569,Jessica,Flores,Female,2017-04-04,IT / Systems Administration,IT Analyst,L3,IT Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,122500,USD,2025-01-01
+EMP-1017,Jacob,Thomas,Male,2017-09-20,Software Engineering,Software Engineer – Mobile,L3,Engineering – Data Systems,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,130500,USD,2025-01-01
+EMP-1610,Casey,Brown,Prefer not to say,2021-03-17,IT / Systems Administration,IT Analyst,L3,IT Operations,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,114500,USD,2025-01-01
+EMP-1140,Robert,Cruz,Male,2017-11-15,Software Engineering,Software Engineer – Frontend,L4,Engineering – Data Systems,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,178000,USD,2025-01-01
+EMP-1269,Amy,Cox,Female,2018-07-09,Data & Analytics,Analytics Engineer,L3,Business Intelligence,Denver CO,"Denver-Aurora-Lakewood, CO",19740,133000,USD,2025-01-01
+EMP-1000,Richard,Mendoza,Male,2023-02-12,Software Engineering,Software Engineer – Mobile,L2,Engineering – Core Platform,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,148500,USD,2025-01-01
+EMP-1527,Ryan,Nguyen,Male,2017-01-30,DevOps / Platform / SRE,Site Reliability Engineer,L3,Infrastructure & SRE,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,151500,USD,2025-01-01
+EMP-1262,Jacob,Murphy,Male,2023-03-16,Data & Analytics,Data Scientist,L4,Business Intelligence,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,218000,USD,2025-01-01
+EMP-1638,Rebecca,Reyes,Female,2024-10-19,Sales & Account Management,Account Manager,L4,Customer Success,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,208000,USD,2025-01-01
+EMP-1055,Rebecca,Davis,Female,2021-09-17,Software Engineering,Software Engineer – Mobile,L2,Engineering – Mobile,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,129000,USD,2025-01-01
+EMP-1740,Taylor,Rivera,Non-binary,2021-10-04,Corporate,Financial Analyst,L2,Finance,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,103500,USD,2025-01-01
+EMP-1359,William,Alvarez,Male,2020-10-07,Clinical Informatics / Health IT,Senior Clinical Informatics Analyst,L3,Health IT,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,161000,USD,2025-01-01
+EMP-1012,James,Sanders,Male,2019-12-15,Software Engineering,Software Engineer – Mobile,L2,Engineering – Consumer Product,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,153000,USD,2025-01-01
+EMP-1508,Cameron,Ortiz,Prefer not to say,2024-09-24,DevOps / Platform / SRE,Senior DevOps Engineer,L4,Platform Engineering,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,223500,USD,2025-01-01
+EMP-1150,Elizabeth,Rogers,Female,2017-06-10,Software Engineering,QA Engineer / SDET,L2,Engineering – Consumer Product,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,125500,USD,2025-01-01
+EMP-1200,Ronald,Ross,Male,2023-10-04,Data & Analytics,BI Analyst,L2,Data Science,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,111500,USD,2025-01-01
+EMP-1779,Rebecca,Jones,Female,2017-11-25,Corporate,HRBP,L5,Operations,Denver CO,"Denver-Aurora-Lakewood, CO",19740,153500,USD,2025-01-01
+EMP-1253,Nancy,Wilson,Female,2022-11-18,Data & Analytics,BI Analyst,L1,Data & Analytics,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,97000,USD,2025-01-01
+EMP-1648,Steven,Murphy,Male,2022-12-01,Sales & Account Management,Account Executive,L3,Sales – Enterprise,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,120500,USD,2025-01-01
+EMP-1007,Sandra,Ruiz,Female,2017-08-18,Software Engineering,Software Engineer – Frontend,L2,Engineering – Consumer Product,Denver CO,"Denver-Aurora-Lakewood, CO",19740,110500,USD,2025-01-01
+EMP-1246,Margaret,Mitchell,Female,2019-06-26,Data & Analytics,Data Analyst,L3,Data Science,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,148500,USD,2025-01-01
+EMP-1549,Avery,Mitchell,Non-binary,2017-08-27,DevOps / Platform / SRE,Cloud Infrastructure Engineer,L2,Infrastructure & SRE,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,107500,USD,2025-01-01
+EMP-1405,George,Cruz,Male,2018-07-03,Clinical Informatics / Health IT,Clinical Informatics Analyst,L1,Health IT,Denver CO,"Denver-Aurora-Lakewood, CO",19740,83000,USD,2025-01-01
+EMP-1652,Jacob,Carter,Male,2022-12-12,Sales & Account Management,Account Manager,L2,Customer Success,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,103000,USD,2025-01-01
+EMP-1548,Mark,James,Male,2017-11-24,DevOps / Platform / SRE,DevOps Engineer,L2,Infrastructure & SRE,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,102000,USD,2025-01-01
+EMP-1690,Nicholas,Stewart,Male,2021-10-20,Sales & Account Management,Senior Account Executive,L4,Customer Success,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,159000,USD,2025-01-01
+EMP-1223,Jessica,Chavez,Female,2023-11-23,Data & Analytics,Analytics Engineer,L5,Data & Analytics,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,253000,USD,2025-01-01
+EMP-1466,Nicholas,Stewart,Male,2020-06-05,UX / Design,UX Designer,L2,Design & UX,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,82000,USD,2025-01-01
+EMP-1718,Melissa,Roberts,Female,2020-03-11,Sales & Account Management,Sales Engineer,L3,Sales – Mid-Market,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,146000,USD,2025-01-01
+EMP-1010,Daniel,Ruiz,Male,2017-09-18,Software Engineering,Software Engineer – Frontend,L1,Engineering – Mobile,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,105500,USD,2025-01-01
+EMP-1772,Charles,Ortiz,Male,2023-07-06,Corporate,Corporate Counsel,L5,Legal & Compliance,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,208000,USD,2025-01-01
+EMP-1411,Andrew,Ortiz,Male,2021-01-06,Clinical Informatics / Health IT,Clinical Informatics Analyst,L1,Implementation Services,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,107000,USD,2025-01-01
+EMP-1298,David,Scott,Male,2018-06-04,Data & Analytics,BI Analyst,L1,Data Science,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,95500,USD,2025-01-01
+EMP-1796,Sage,Green,Non-binary,2018-11-07,Corporate,Paralegal,L2,Legal & Compliance,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,81500,USD,2025-01-01
+EMP-1028,Morgan,Gray,Non-binary,2019-09-05,Software Engineering,Software Engineer – Frontend,L3,Engineering – Data Systems,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,179000,USD,2025-01-01
+EMP-1104,Cynthia,Allen,Female,2022-03-21,Software Engineering,Software Engineer – Frontend,L3,Engineering – Data Systems,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,177000,USD,2025-01-01
+EMP-1218,Eric,Moore,Male,2022-04-02,Data & Analytics,Data Engineer,L2,Business Intelligence,Denver CO,"Denver-Aurora-Lakewood, CO",19740,118000,USD,2025-01-01
+EMP-1334,Joseph,Walker,Male,2020-07-14,Product Management,Senior Product Manager,L4,Product – Consumer,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,161500,USD,2025-01-01
+EMP-1238,Eric,Miller,Male,2024-03-20,Data & Analytics,BI Analyst,L3,Data Science,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,147500,USD,2025-01-01
+EMP-1736,James,Ross,Male,2018-05-23,Corporate,Financial Analyst,L3,Finance,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,111500,USD,2025-01-01
+EMP-1351,Amy,Peterson,Female,2022-07-02,Product Management,Product Manager,L4,Product – Platform,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,185500,USD,2025-01-01
+EMP-1040,Anthony,Evans,Male,2017-10-12,Software Engineering,Software Engineer – Full-Stack,L3,Engineering – Data Systems,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,176500,USD,2025-01-01
+EMP-1695,Ronald,Brooks,Male,2024-02-08,Sales & Account Management,Account Manager,L2,Sales – Enterprise,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,87000,USD,2025-01-01
+EMP-1568,Jessica,Myers,Female,2023-12-19,IT / Systems Administration,Systems Administrator,L2,IT Operations,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,74500,USD,2025-01-01
+EMP-1121,Mary,Scott,Female,2018-06-17,Software Engineering,Software Engineer – Frontend,L3,Engineering – Data Systems,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,177000,USD,2025-01-01
+EMP-1416,Elizabeth,Mitchell,Female,2019-01-20,Clinical Informatics / Health IT,Clinical Informatics Analyst,L2,Clinical Informatics,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,130000,USD,2025-01-01
+EMP-1454,Gary,Castillo,Male,2017-12-25,UX / Design,Product Designer,L4,Design & UX,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,132500,USD,2025-01-01
+EMP-1517,Cynthia,Brooks,Female,2018-11-18,DevOps / Platform / SRE,Cloud Infrastructure Engineer,L3,Infrastructure & SRE,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,191500,USD,2025-01-01
+EMP-1306,Kevin,Sanders,Male,2019-08-18,Product Management,Product Manager,L4,Product – Consumer,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,230500,USD,2025-01-01
+EMP-1313,Patricia,Bennett,Female,2019-04-22,Product Management,Product Manager,L3,Product – Clinical,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,138500,USD,2025-01-01
+EMP-1672,Amy,James,Female,2023-12-08,Sales & Account Management,Customer Success Manager,L2,Sales – Enterprise,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,103000,USD,2025-01-01
+EMP-1131,Amanda,Wilson,Female,2024-05-13,Software Engineering,QA Engineer / SDET,L3,Engineering – Mobile,Denver CO,"Denver-Aurora-Lakewood, CO",19740,134000,USD,2025-01-01
+EMP-1180,Dorothy,King,Female,2023-11-12,Software Engineering,Software Engineer – Mobile,L3,Engineering – Data Systems,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,164000,USD,2025-01-01
+EMP-1033,David,Lopez,Male,2020-02-08,Software Engineering,Software Engineer – Backend,L3,Engineering – Core Platform,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,185500,USD,2025-01-01
+EMP-1117,Casey,Jones,Non-binary,2019-06-09,Software Engineering,Software Engineer – Mobile,L4,Engineering – Mobile,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,182000,USD,2025-01-01
+EMP-1706,Sandra,Ortiz,Female,2021-08-14,Sales & Account Management,Customer Success Manager,L2,Customer Success,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,119500,USD,2025-01-01
+EMP-1774,Kenneth,Edwards,Male,2023-08-12,Corporate,Paralegal,L2,People Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,94500,USD,2025-01-01
+EMP-1762,Susan,Kim,Female,2017-10-03,Corporate,General Operations Manager,L5,Operations,Denver CO,"Denver-Aurora-Lakewood, CO",19740,155500,USD,2025-01-01
+EMP-1129,Ryan,Gonzalez,Male,2021-03-07,Software Engineering,Software Engineer – Mobile,L3,Engineering – Consumer Product,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,189000,USD,2025-01-01
+EMP-1036,Jennifer,Rivera,Female,2019-10-20,Software Engineering,Software Engineer – Backend,L2,Engineering – Core Platform,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,116000,USD,2025-01-01
+EMP-1395,Kevin,Perez,Male,2023-04-06,Clinical Informatics / Health IT,EHR Implementation Analyst,L2,Clinical Informatics,Denver CO,"Denver-Aurora-Lakewood, CO",19740,109500,USD,2025-01-01
+EMP-1272,Michelle,Carter,Female,2021-02-04,Data & Analytics,Analytics Engineer,L4,Data & Analytics,Denver CO,"Denver-Aurora-Lakewood, CO",19740,166000,USD,2025-01-01
+EMP-1106,Susan,Walker,Female,2021-01-10,Software Engineering,Software Engineer – Frontend,L2,Engineering – Data Systems,Denver CO,"Denver-Aurora-Lakewood, CO",19740,111500,USD,2025-01-01
+EMP-1577,Jason,Bennett,Male,2021-04-15,IT / Systems Administration,Senior Systems Administrator,L5,IT Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,187000,USD,2025-01-01
+EMP-1187,Sarah,Cruz,Female,2018-05-24,Software Engineering,Software Engineer – Backend,L4,Engineering – Consumer Product,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,167000,USD,2025-01-01
+EMP-1250,David,Foster,Male,2018-07-18,Data & Analytics,BI Analyst,L2,Data Science,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,104000,USD,2025-01-01
+EMP-1225,Elizabeth,Morgan,Female,2017-11-16,Data & Analytics,BI Analyst,L3,Data Science,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,141500,USD,2025-01-01
+EMP-1632,Brian,Hill,Male,2024-08-15,Sales & Account Management,Account Manager,L2,Sales – Mid-Market,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,88500,USD,2025-01-01
+EMP-1495,Paul,Richardson,Male,2017-05-28,DevOps / Platform / SRE,Cloud Infrastructure Engineer,L4,Infrastructure & SRE,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,201000,USD,2025-01-01
+EMP-1135,Ronald,Flores,Male,2023-05-14,Software Engineering,Software Engineer – Mobile,L2,Engineering – Core Platform,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,141000,USD,2025-01-01
+EMP-1202,Kevin,Kim,Male,2022-09-19,Data & Analytics,Data Analyst,L3,Data Science,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,164500,USD,2025-01-01
+EMP-1531,Nancy,Wilson,Female,2018-05-28,DevOps / Platform / SRE,DevOps Engineer,L2,Infrastructure & SRE,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,131500,USD,2025-01-01
+EMP-1626,Barbara,Hill,Female,2021-06-30,Sales & Account Management,Senior Account Executive,L5,Customer Success,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,246000,USD,2025-01-01
+EMP-1039,Nicholas,Lewis,Male,2022-03-01,Software Engineering,Software Engineer – Backend,L3,Engineering – Data Systems,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,164000,USD,2025-01-01
+EMP-1500,Carol,Reyes,Female,2023-08-01,DevOps / Platform / SRE,Site Reliability Engineer,L5,Platform Engineering,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,221500,USD,2025-01-01
+EMP-1324,Richard,Howard,Male,2018-04-18,Product Management,Product Manager,L3,Product – Platform,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,168500,USD,2025-01-01
+EMP-1243,James,Ramirez,Male,2018-04-26,Data & Analytics,Data Scientist,L2,Data Science,Denver CO,"Denver-Aurora-Lakewood, CO",19740,121000,USD,2025-01-01
+EMP-1066,George,Johnson,Male,2022-07-01,Software Engineering,Software Engineer – Full-Stack,L2,Engineering – Core Platform,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,145000,USD,2025-01-01
+EMP-1290,James,Murphy,Male,2021-04-22,Data & Analytics,Data Scientist,L3,Data Science,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,165000,USD,2025-01-01
+EMP-1371,Steven,Morris,Male,2021-06-06,Clinical Informatics / Health IT,Health IT Specialist,L3,Implementation Services,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,136500,USD,2025-01-01
+EMP-1649,Taylor,Cook,Non-binary,2021-08-19,Sales & Account Management,Account Executive,L2,Sales – Mid-Market,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,122000,USD,2025-01-01
+EMP-1689,Lisa,Howard,Female,2019-07-30,Sales & Account Management,Account Executive,L2,Sales – Enterprise,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,129500,USD,2025-01-01
+EMP-1210,Kenneth,Torres,Male,2024-08-03,Data & Analytics,Analytics Engineer,L4,Data Science,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,202000,USD,2025-01-01
+EMP-1792,Quinn,Rivera,Non-binary,2024-07-10,Corporate,HR Specialist,L2,People Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,110000,USD,2025-01-01
+EMP-1357,James,Price,Male,2021-05-23,Clinical Informatics / Health IT,Health IT Specialist,L3,Implementation Services,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,180500,USD,2025-01-01
+EMP-1428,Melissa,Castillo,Female,2018-02-04,Clinical Informatics / Health IT,Senior Clinical Informatics Analyst,L4,Implementation Services,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,158500,USD,2025-01-01
+EMP-1365,Andrew,Bennett,Male,2019-08-31,Clinical Informatics / Health IT,Clinical Informatics Analyst,L2,Clinical Informatics,Denver CO,"Denver-Aurora-Lakewood, CO",19740,99000,USD,2025-01-01
+EMP-1639,Jacob,Roberts,Male,2019-02-01,Sales & Account Management,Sales Engineer,L4,Sales – Mid-Market,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,179000,USD,2025-01-01
+EMP-1710,Robert,Green,Male,2021-12-11,Sales & Account Management,Customer Success Manager,L3,Sales – Mid-Market,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,150500,USD,2025-01-01
+EMP-1379,Patricia,Baker,Female,2020-05-26,Clinical Informatics / Health IT,Clinical Informatics Analyst,L3,Health IT,Denver CO,"Denver-Aurora-Lakewood, CO",19740,138500,USD,2025-01-01
+EMP-1167,James,Richardson,Male,2023-05-27,Software Engineering,Software Engineer – Mobile,L3,Engineering – Mobile,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,133000,USD,2025-01-01
+EMP-1443,Jacob,Lewis,Male,2024-11-26,UX / Design,Principal UX Designer,L5,Design & UX,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,192000,USD,2025-01-01
+EMP-1126,Michelle,Carter,Female,2022-12-14,Software Engineering,Software Engineer – Backend,L2,Engineering – Data Systems,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,121000,USD,2025-01-01
+EMP-1761,Margaret,Torres,Female,2020-05-02,Corporate,Accountant,L3,Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,117000,USD,2025-01-01
+EMP-1193,Amanda,Evans,Female,2023-04-20,Software Engineering,Software Engineer – Backend,L3,Engineering – Core Platform,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,149000,USD,2025-01-01
+EMP-1071,Nicholas,Wood,Male,2022-01-10,Software Engineering,Software Engineer – Full-Stack,L2,Engineering – Core Platform,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,110500,USD,2025-01-01
+EMP-1325,Robert,Morris,Male,2018-09-07,Product Management,Senior Product Manager,L4,Product – Platform,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,187500,USD,2025-01-01
+EMP-1153,Jason,Taylor,Male,2017-12-14,Software Engineering,Software Engineer – Full-Stack,L3,Engineering – Data Systems,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,184000,USD,2025-01-01
+EMP-1179,Stephanie,Green,Female,2018-04-10,Software Engineering,Software Engineer – Full-Stack,L3,Engineering – Core Platform,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,128000,USD,2025-01-01
+EMP-1546,John,Garcia,Male,2018-06-16,DevOps / Platform / SRE,Site Reliability Engineer,L3,Platform Engineering,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,138500,USD,2025-01-01
+EMP-1273,Michael,Patel,Male,2024-12-11,Data & Analytics,BI Analyst,L1,Data & Analytics,Denver CO,"Denver-Aurora-Lakewood, CO",19740,82500,USD,2025-01-01
+EMP-1521,Brenda,Miller,Female,2021-06-15,DevOps / Platform / SRE,DevOps Engineer,L2,Platform Engineering,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,121000,USD,2025-01-01
+EMP-1509,Andrew,White,Male,2019-08-30,DevOps / Platform / SRE,DevOps Engineer,L2,Infrastructure & SRE,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,103000,USD,2025-01-01
+EMP-1709,Cameron,Cooper,Non-binary,2018-12-20,Sales & Account Management,Account Executive,L3,Customer Success,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,143500,USD,2025-01-01
+EMP-1232,Patricia,Hill,Female,2023-02-09,Data & Analytics,Data Scientist,L2,Business Intelligence,Denver CO,"Denver-Aurora-Lakewood, CO",19740,110000,USD,2025-01-01
+EMP-1002,Daniel,Price,Male,2020-02-13,Software Engineering,Software Engineer – Full-Stack,L3,Engineering – Consumer Product,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,154000,USD,2025-01-01
+EMP-1293,Kimberly,Peterson,Female,2017-06-20,Data & Analytics,Analytics Engineer,L3,Data Science,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,165000,USD,2025-01-01
+EMP-1670,Jacob,Williams,Male,2017-08-18,Sales & Account Management,Senior Account Executive,L5,Sales – Mid-Market,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,163000,USD,2025-01-01
+EMP-1685,Charles,Adams,Male,2019-08-30,Sales & Account Management,Account Manager,L3,Customer Success,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,122000,USD,2025-01-01
+EMP-1572,Kenneth,Bennett,Male,2024-05-27,IT / Systems Administration,IT Support Specialist,L2,IT Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,104500,USD,2025-01-01
+EMP-1545,Betty,Morgan,Female,2023-03-09,DevOps / Platform / SRE,Senior DevOps Engineer,L3,Platform Engineering,Denver CO,"Denver-Aurora-Lakewood, CO",19740,142500,USD,2025-01-01
+EMP-1063,Lisa,Ward,Female,2018-04-15,Software Engineering,Software Engineer – Frontend,L1,Engineering – Consumer Product,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,81500,USD,2025-01-01
+EMP-1478,Kathleen,Clark,Female,2024-04-05,UX / Design,Senior UX Designer,L3,Design & UX,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,142500,USD,2025-01-01
+EMP-1431,Betty,Castillo,Female,2021-08-25,Clinical Informatics / Health IT,Clinical Informatics Analyst,L3,Clinical Informatics,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,160000,USD,2025-01-01
+EMP-1607,Patricia,Thompson,Female,2020-10-16,IT / Systems Administration,IT Support Specialist,L1,IT Operations,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,65500,USD,2025-01-01
+EMP-1406,Jason,Williams,Male,2018-06-22,Clinical Informatics / Health IT,"Director, Clinical Informatics",L6,Clinical Informatics,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,282500,USD,2025-01-01
+EMP-1030,Reese,Rodriguez,Non-binary,2021-02-22,Software Engineering,Software Engineer – Backend,L2,Engineering – Data Systems,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,153000,USD,2025-01-01
+EMP-1579,Joseph,Cruz,Male,2018-08-18,IT / Systems Administration,Network Administrator,L3,IT Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,141500,USD,2025-01-01
+EMP-1410,Richard,Gutierrez,Male,2018-04-28,Clinical Informatics / Health IT,Health IT Specialist,L3,Health IT,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,127500,USD,2025-01-01
+EMP-1627,Avery,Rodriguez,Prefer not to say,2024-10-13,Sales & Account Management,Senior Account Executive,L4,Customer Success,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,178500,USD,2025-01-01
+EMP-1544,Patricia,Watson,Female,2023-12-16,DevOps / Platform / SRE,Platform Engineer,L4,Platform Engineering,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,229500,USD,2025-01-01
+EMP-1720,Rebecca,Moore,Female,2023-09-16,Corporate,HR Specialist,L3,People Operations,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,112500,USD,2025-01-01
+EMP-1481,Nicholas,Perez,Male,2021-08-10,UX / Design,UX Researcher,L2,Design & UX,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,78000,USD,2025-01-01
+EMP-1303,Eric,Baker,Male,2017-07-18,Product Management,Product Manager,L2,Product – Platform,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,139000,USD,2025-01-01
+EMP-1326,Rebecca,Lewis,Female,2021-09-01,Product Management,Principal Product Manager,L6,Product – Clinical,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,264500,USD,2025-01-01
+EMP-1602,Quinn,Sanders,Prefer not to say,2024-12-05,IT / Systems Administration,IT Support Specialist,L2,IT Operations,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,75500,USD,2025-01-01
+EMP-1011,Dakota,Johnson,Prefer not to say,2018-04-15,Software Engineering,Software Engineer – Full-Stack,L4,Engineering – Data Systems,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,230500,USD,2025-01-01
+EMP-1557,Susan,Jones,Female,2018-10-02,DevOps / Platform / SRE,Cloud Infrastructure Engineer,L3,Platform Engineering,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,129500,USD,2025-01-01
+EMP-1725,Kenneth,Cook,Male,2017-10-01,Corporate,HRBP,L5,Legal & Compliance,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,175500,USD,2025-01-01
+EMP-1327,David,Thompson,Male,2022-10-14,Product Management,Product Manager,L4,Product – Platform,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,159000,USD,2025-01-01
+EMP-1159,Laura,Stewart,Female,2021-04-14,Software Engineering,QA Engineer / SDET,L1,Engineering – Mobile,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,84000,USD,2025-01-01
+EMP-1282,Matthew,Bailey,Male,2023-04-13,Data & Analytics,Analytics Engineer,L3,Business Intelligence,Denver CO,"Denver-Aurora-Lakewood, CO",19740,132500,USD,2025-01-01
+EMP-1734,Joseph,Clark,Male,2017-11-18,Corporate,HRBP,L5,Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,184500,USD,2025-01-01
+EMP-1047,Daniel,Bennett,Male,2022-10-13,Software Engineering,Software Engineer – Frontend,L2,Engineering – Data Systems,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,130500,USD,2025-01-01
+EMP-1109,Susan,Brooks,Female,2021-12-11,Software Engineering,Software Engineer – Mobile,L4,Engineering – Core Platform,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,166000,USD,2025-01-01
+EMP-1145,Eric,Stewart,Male,2023-07-02,Software Engineering,Software Engineer – Backend,L1,Engineering – Mobile,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,95500,USD,2025-01-01
+EMP-1276,Anna,Cox,Female,2019-10-14,Data & Analytics,Senior Data Scientist,L4,Data Science,Denver CO,"Denver-Aurora-Lakewood, CO",19740,170000,USD,2025-01-01
+EMP-1462,Brenda,Stewart,Female,2017-10-27,UX / Design,UX Designer,L3,Design & UX,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,124000,USD,2025-01-01
+EMP-1064,Timothy,Phillips,Male,2019-03-24,Software Engineering,QA Engineer / SDET,L1,Engineering – Core Platform,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,116500,USD,2025-01-01
+EMP-1199,Kenneth,Watson,Male,2018-05-02,Software Engineering,Software Engineer – Full-Stack,L2,Engineering – Consumer Product,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,140000,USD,2025-01-01
+EMP-1424,Timothy,Evans,Male,2017-11-19,Clinical Informatics / Health IT,Clinical Informatics Analyst,L3,Health IT,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,173500,USD,2025-01-01
+EMP-1759,Amy,Gonzalez,Female,2019-04-24,Corporate,Corporate Counsel,L4,Legal & Compliance,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,156000,USD,2025-01-01
+EMP-1758,Jeffrey,Wright,Male,2022-04-08,Corporate,FP&A Analyst,L3,People Operations,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,80000,USD,2025-01-01
+EMP-1775,Ryan,Morris,Male,2020-02-12,Corporate,Financial Analyst,L2,Finance,Denver CO,"Denver-Aurora-Lakewood, CO",19740,79000,USD,2025-01-01
+EMP-1154,William,Wood,Male,2022-09-14,Software Engineering,Software Engineer – Frontend,L3,Engineering – Data Systems,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,177500,USD,2025-01-01
+EMP-1101,Paul,Long,Male,2018-02-08,Software Engineering,Software Engineer – Mobile,L2,Engineering – Core Platform,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,98000,USD,2025-01-01
+EMP-1207,Linda,Alvarez,Female,2020-08-24,Data & Analytics,Data Engineer,L3,Data Science,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,144000,USD,2025-01-01
+EMP-1750,Gary,Sanchez,Male,2022-08-02,Corporate,General Operations Manager,L5,Operations,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,184000,USD,2025-01-01
+EMP-1468,Stephanie,Jimenez,Female,2017-05-31,UX / Design,UX Researcher,L4,Design & UX,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,159000,USD,2025-01-01
+EMP-1383,Ashley,Jones,Female,2021-01-16,Clinical Informatics / Health IT,Clinical Informatics Analyst,L1,Implementation Services,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,82500,USD,2025-01-01
+EMP-1333,William,Ramos,Male,2018-07-01,Product Management,Principal Product Manager,L5,Product – Clinical,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,194000,USD,2025-01-01
+EMP-1703,Gary,Lopez,Male,2019-01-03,Sales & Account Management,Sales Engineer,L4,Sales – Mid-Market,Denver CO,"Denver-Aurora-Lakewood, CO",19740,140000,USD,2025-01-01
+EMP-1319,John,Flores,Male,2019-09-05,Product Management,Principal Product Manager,L6,Product – Platform,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,379000,USD,2025-01-01
+EMP-1278,Paul,Collins,Male,2022-03-12,Data & Analytics,Data Analyst,L1,Data Science,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,97500,USD,2025-01-01
+EMP-1587,Steven,Ortiz,Male,2017-06-10,IT / Systems Administration,Network Administrator,L3,IT Operations,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,107000,USD,2025-01-01
+EMP-1329,Ashley,Stewart,Female,2022-07-14,Product Management,Product Manager,L2,Product – Platform,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,114000,USD,2025-01-01
+EMP-1228,Patricia,Phillips,Female,2019-06-12,Data & Analytics,Senior Data Scientist,L4,Data Science,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,189500,USD,2025-01-01
+EMP-1573,Sandra,Carter,Female,2024-12-16,IT / Systems Administration,IT Analyst,L2,IT Operations,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,83500,USD,2025-01-01
+EMP-1075,Kevin,Johnson,Male,2018-06-03,Software Engineering,Staff Software Engineer,L6,Engineering – Data Systems,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,400500,USD,2025-01-01
+EMP-1514,Kathleen,Brooks,Female,2020-10-02,DevOps / Platform / SRE,Senior DevOps Engineer,L4,Infrastructure & SRE,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,206500,USD,2025-01-01
+EMP-1270,George,Edwards,Male,2024-04-20,Data & Analytics,Data Analyst,L2,Data Science,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,116000,USD,2025-01-01
+EMP-1143,George,Perez,Male,2024-02-07,Software Engineering,Software Engineer – Frontend,L2,Engineering – Core Platform,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,124000,USD,2025-01-01
+EMP-1790,Melissa,Ramos,Female,2022-02-20,Corporate,HRBP,L3,People Operations,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,95000,USD,2025-01-01
+EMP-1176,Amanda,Richardson,Female,2020-01-30,Software Engineering,Software Engineer – Mobile,L2,Engineering – Core Platform,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,162000,USD,2025-01-01
+EMP-1692,Jason,Morales,Male,2024-10-24,Sales & Account Management,Sales Development Rep,L2,Sales – Enterprise,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,106000,USD,2025-01-01
+EMP-1782,Kevin,Green,Male,2018-03-30,Corporate,Accountant,L3,Finance,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,124000,USD,2025-01-01
+EMP-1283,Ryan,Phillips,Male,2023-11-21,Data & Analytics,BI Analyst,L1,Data & Analytics,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,89000,USD,2025-01-01
+EMP-1348,Steven,Bennett,Male,2022-12-26,Product Management,Product Manager,L3,Product – Clinical,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,164500,USD,2025-01-01
+EMP-1374,Michelle,Patel,Female,2017-10-02,Clinical Informatics / Health IT,Clinical Informatics Analyst,L3,Clinical Informatics,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,178500,USD,2025-01-01
+EMP-1596,William,Cox,Male,2019-09-30,IT / Systems Administration,Systems Administrator,L3,IT Operations,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,120000,USD,2025-01-01
+EMP-1586,Deborah,Sanders,Female,2023-11-10,IT / Systems Administration,IT Analyst,L2,IT Operations,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,80500,USD,2025-01-01
+EMP-1266,Michelle,Roberts,Female,2021-08-22,Data & Analytics,Data Analyst,L2,Business Intelligence,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,122000,USD,2025-01-01
+EMP-1558,Kevin,Lopez,Male,2023-05-20,DevOps / Platform / SRE,Senior DevOps Engineer,L5,Platform Engineering,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,289500,USD,2025-01-01
+EMP-1591,Betty,Reyes,Female,2020-08-20,IT / Systems Administration,Network Administrator,L2,IT Operations,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,66000,USD,2025-01-01
+EMP-1798,Charles,Cook,Male,2020-12-31,Corporate,HRBP,L3,Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,108500,USD,2025-01-01
+EMP-1711,Amanda,Jackson,Female,2023-01-21,Sales & Account Management,Senior Account Executive,L4,Sales – Enterprise,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,141500,USD,2025-01-01
+EMP-1398,Barbara,Morris,Female,2022-08-12,Clinical Informatics / Health IT,Health IT Specialist,L2,Clinical Informatics,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,139000,USD,2025-01-01
+EMP-1328,Kevin,Adams,Male,2022-02-14,Product Management,Principal Product Manager,L5,Product – Platform,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,245500,USD,2025-01-01
+EMP-1338,Kevin,King,Male,2018-12-14,Product Management,Product Manager,L2,Product – Platform,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,136500,USD,2025-01-01
+EMP-1619,John,Flores,Male,2020-10-19,IT / Systems Administration,IT Support Specialist,L2,IT Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,99000,USD,2025-01-01
+EMP-1201,Kathleen,Ortiz,Female,2023-10-20,Data & Analytics,Data Scientist,L2,Data Science,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,138000,USD,2025-01-01
+EMP-1031,Shirley,Johnson,Female,2024-06-10,Software Engineering,Software Engineer – Backend,L4,Engineering – Core Platform,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,169000,USD,2025-01-01
+EMP-1222,Ashley,Davis,Female,2018-10-17,Data & Analytics,Data Scientist,L4,Business Intelligence,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,218500,USD,2025-01-01
+EMP-1084,Kenneth,Rogers,Male,2021-11-29,Software Engineering,Software Engineer – Frontend,L2,Engineering – Core Platform,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,136500,USD,2025-01-01
+EMP-1205,Deborah,Jackson,Female,2019-09-20,Data & Analytics,Data Scientist,L2,Data & Analytics,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,140000,USD,2025-01-01
+EMP-1161,Daniel,Wright,Male,2022-10-04,Software Engineering,Software Engineer – Mobile,L3,Engineering – Consumer Product,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,180000,USD,2025-01-01
+EMP-1173,Jacob,Roberts,Male,2019-02-05,Software Engineering,Software Engineer – Full-Stack,L3,Engineering – Mobile,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,168500,USD,2025-01-01
+EMP-1731,Anthony,Reed,Male,2022-11-24,Corporate,Paralegal,L2,People Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,98000,USD,2025-01-01
+EMP-1035,Robert,Mitchell,Male,2018-08-30,Software Engineering,Software Engineer – Backend,L5,Engineering – Mobile,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,227500,USD,2025-01-01
+EMP-1387,Mary,Morris,Female,2024-04-05,Clinical Informatics / Health IT,Senior Clinical Informatics Analyst,L3,Clinical Informatics,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,178000,USD,2025-01-01
+EMP-1712,Skyler,Jackson,Non-binary,2020-08-04,Sales & Account Management,Account Manager,L2,Sales – Enterprise,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,128500,USD,2025-01-01
+EMP-1624,George,Adams,Male,2017-05-04,Sales & Account Management,Sales Engineer,L4,Sales – Enterprise,Denver CO,"Denver-Aurora-Lakewood, CO",19740,152500,USD,2025-01-01
+EMP-1074,Mark,Myers,Male,2023-08-12,Software Engineering,Software Engineer – Backend,L3,Engineering – Data Systems,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,155500,USD,2025-01-01
+EMP-1699,Margaret,Moore,Female,2019-09-05,Sales & Account Management,Account Executive,L3,Customer Success,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,166000,USD,2025-01-01
+EMP-1015,Eric,Rodriguez,Male,2022-12-22,Software Engineering,Software Engineer – Full-Stack,L2,Engineering – Consumer Product,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,119000,USD,2025-01-01
+EMP-1438,Rebecca,Mendoza,Female,2022-12-27,UX / Design,UX Researcher,L3,Design & UX,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,110500,USD,2025-01-01
+EMP-1629,Cynthia,Adams,Female,2021-12-29,Sales & Account Management,Sales Engineer,L4,Sales – Enterprise,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,185000,USD,2025-01-01
+EMP-1264,Michelle,Campbell,Female,2020-06-16,Data & Analytics,Data Analyst,L3,Business Intelligence,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,111000,USD,2025-01-01
+EMP-1612,Kevin,Ramirez,Male,2018-12-18,IT / Systems Administration,Systems Administrator,L2,IT Operations,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,84000,USD,2025-01-01
+EMP-1209,Casey,Reed,Non-binary,2020-05-04,Data & Analytics,BI Analyst,L1,Business Intelligence,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,96000,USD,2025-01-01
+EMP-1211,Skyler,Jackson,Non-binary,2020-03-24,Data & Analytics,Data Scientist,L5,Data Science,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,241000,USD,2025-01-01
+EMP-1219,Andrew,Castillo,Male,2020-10-12,Data & Analytics,Data Analyst,L1,Business Intelligence,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,98500,USD,2025-01-01
+EMP-1654,Cynthia,Jimenez,Female,2019-09-18,Sales & Account Management,Account Executive,L4,Customer Success,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,198000,USD,2025-01-01
+EMP-1486,Richard,Parker,Male,2022-05-09,DevOps / Platform / SRE,DevOps Engineer,L4,Platform Engineering,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,179500,USD,2025-01-01
+EMP-1215,Emily,Adams,Female,2018-01-02,Data & Analytics,Data Engineer,L4,Data Science,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,191500,USD,2025-01-01
+EMP-1630,Deborah,Adams,Female,2024-05-28,Sales & Account Management,Account Executive,L2,Sales – Enterprise,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,87500,USD,2025-01-01
+EMP-1704,Thomas,Cook,Male,2019-04-17,Sales & Account Management,Sales Engineer,L3,Customer Success,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,139000,USD,2025-01-01
+EMP-1385,Amanda,Hall,Female,2019-11-26,Clinical Informatics / Health IT,Health IT Specialist,L2,Implementation Services,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,104000,USD,2025-01-01
+EMP-1470,James,Bennett,Male,2023-11-21,UX / Design,UX Designer,L2,Design & UX,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,105000,USD,2025-01-01
+EMP-1611,Donna,Alvarez,Female,2024-12-17,IT / Systems Administration,Network Administrator,L2,IT Operations,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,78500,USD,2025-01-01
+EMP-1340,Jason,Mitchell,Male,2024-03-25,Product Management,Product Manager,L4,Product – Platform,Denver CO,"Denver-Aurora-Lakewood, CO",19740,183000,USD,2025-01-01
+EMP-1441,Paul,Long,Male,2021-05-12,UX / Design,UX Researcher,L2,Design & UX,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,97500,USD,2025-01-01
+EMP-1786,Lisa,Miller,Female,2021-10-23,Corporate,Paralegal,L3,Legal & Compliance,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,120500,USD,2025-01-01
+EMP-1418,Susan,Diaz,Female,2022-06-01,Clinical Informatics / Health IT,Clinical Informatics Analyst,L3,Implementation Services,Denver CO,"Denver-Aurora-Lakewood, CO",19740,142000,USD,2025-01-01
+EMP-1705,Sarah,Morris,Female,2021-12-24,Sales & Account Management,Sales Engineer,L3,Customer Success,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,138500,USD,2025-01-01
+EMP-1366,Ronald,Smith,Male,2020-04-21,Clinical Informatics / Health IT,Clinical Informatics Analyst,L2,Implementation Services,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,109500,USD,2025-01-01
+EMP-1694,Gary,Howard,Male,2017-04-10,Sales & Account Management,Customer Success Manager,L2,Sales – Mid-Market,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,116000,USD,2025-01-01
+EMP-1472,Andrew,Mitchell,Male,2024-07-01,UX / Design,UX Researcher,L2,Design & UX,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,90000,USD,2025-01-01
+EMP-1043,Mary,Ortiz,Female,2024-07-09,Software Engineering,Software Engineer – Full-Stack,L3,Engineering – Consumer Product,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,184500,USD,2025-01-01
+EMP-1087,William,Morris,Male,2020-09-27,Software Engineering,Software Engineer – Backend,L3,Engineering – Data Systems,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,133000,USD,2025-01-01
+EMP-1258,Robert,Thompson,Male,2020-07-12,Data & Analytics,Data Scientist,L5,Data & Analytics,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,241000,USD,2025-01-01
+EMP-1146,Riley,Brooks,Prefer not to say,2021-12-07,Software Engineering,Software Engineer – Mobile,L4,Engineering – Core Platform,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,171000,USD,2025-01-01
+EMP-1678,Emily,Diaz,Female,2022-05-04,Sales & Account Management,Sales Development Rep,L1,Customer Success,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,90000,USD,2025-01-01
+EMP-1242,Jennifer,Martinez,Female,2024-07-13,Data & Analytics,Analytics Engineer,L3,Data Science,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,157500,USD,2025-01-01
+EMP-1125,Jacob,Martinez,Male,2020-08-12,Software Engineering,Principal Software Engineer,L6,Engineering – Consumer Product,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,402500,USD,2025-01-01
+EMP-1003,Edward,Hall,Male,2017-06-27,Software Engineering,Software Engineer – Full-Stack,L3,Engineering – Mobile,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,184500,USD,2025-01-01
+EMP-1417,Nicholas,Diaz,Male,2018-11-15,Clinical Informatics / Health IT,Health IT Specialist,L4,Clinical Informatics,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,218000,USD,2025-01-01
+EMP-1477,Daniel,Campbell,Male,2018-04-30,UX / Design,UX Designer,L2,Design & UX,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,112500,USD,2025-01-01
+EMP-1656,Jacob,Hall,Male,2020-03-06,Sales & Account Management,Customer Success Manager,L2,Sales – Mid-Market,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,111000,USD,2025-01-01
+EMP-1575,Daniel,Williams,Male,2020-12-12,IT / Systems Administration,IT Support Specialist,L2,IT Operations,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,90000,USD,2025-01-01
+EMP-1513,Amy,Hill,Female,2023-05-15,DevOps / Platform / SRE,Cloud Infrastructure Engineer,L4,Platform Engineering,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,205000,USD,2025-01-01
+EMP-1555,Robert,Torres,Male,2022-10-22,DevOps / Platform / SRE,Senior DevOps Engineer,L3,Platform Engineering,Denver CO,"Denver-Aurora-Lakewood, CO",19740,140500,USD,2025-01-01
+EMP-1070,Kenneth,Reed,Male,2019-02-22,Software Engineering,Software Engineer – Frontend,L2,Engineering – Core Platform,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,124500,USD,2025-01-01
+EMP-1419,Michael,Ruiz,Male,2018-06-20,Clinical Informatics / Health IT,EHR Implementation Analyst,L1,Health IT,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,99000,USD,2025-01-01
+EMP-1171,Robert,Sanchez,Male,2020-07-16,Software Engineering,Software Engineer – Backend,L4,Engineering – Data Systems,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,241500,USD,2025-01-01
+EMP-1640,Kenneth,Turner,Male,2023-06-19,Sales & Account Management,Account Manager,L3,Sales – Mid-Market,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,139000,USD,2025-01-01
+EMP-1769,Betty,Lee,Female,2017-04-30,Corporate,Financial Analyst,L3,Legal & Compliance,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,112000,USD,2025-01-01
+EMP-1660,Timothy,Nelson,Male,2019-11-24,Sales & Account Management,Account Executive,L3,Sales – Mid-Market,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,168500,USD,2025-01-01
+EMP-1050,Susan,Parker,Female,2024-10-21,Software Engineering,Software Engineer – Backend,L3,Engineering – Mobile,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,140500,USD,2025-01-01
+EMP-1375,Gary,Johnson,Male,2023-12-28,Clinical Informatics / Health IT,Health IT Specialist,L2,Implementation Services,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,129000,USD,2025-01-01
+EMP-1255,Elizabeth,James,Female,2017-05-10,Data & Analytics,Data Engineer,L5,Data & Analytics,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,312500,USD,2025-01-01
+EMP-1621,Laura,Richardson,Female,2020-09-23,Sales & Account Management,Customer Success Manager,L4,Sales – Enterprise,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,141000,USD,2025-01-01
+EMP-1737,Thomas,Long,Male,2023-07-03,Corporate,FP&A Analyst,L3,Legal & Compliance,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,101500,USD,2025-01-01
+EMP-1226,Thomas,Perez,Male,2022-11-02,Data & Analytics,Data Analyst,L3,Business Intelligence,Denver CO,"Denver-Aurora-Lakewood, CO",19740,137000,USD,2025-01-01
+EMP-1362,Jacob,Martinez,Male,2017-05-17,Clinical Informatics / Health IT,EHR Implementation Analyst,L2,Health IT,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,117000,USD,2025-01-01
+EMP-1149,Anthony,Adams,Male,2022-08-16,Software Engineering,Software Engineer – Frontend,L4,Engineering – Consumer Product,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,179000,USD,2025-01-01
+EMP-1372,Karen,Thomas,Female,2022-01-14,Clinical Informatics / Health IT,Clinical Informatics Analyst,L2,Clinical Informatics,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,135000,USD,2025-01-01
+EMP-1625,Edward,Ward,Male,2022-09-12,Sales & Account Management,Account Manager,L2,Sales – Enterprise,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,112500,USD,2025-01-01
+EMP-1185,Kevin,Phillips,Male,2022-05-15,Software Engineering,QA Engineer / SDET,L2,Engineering – Mobile,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,122000,USD,2025-01-01
+EMP-1567,Laura,Watson,Female,2017-07-03,IT / Systems Administration,IT Analyst,L2,IT Operations,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,85500,USD,2025-01-01
+EMP-1060,Timothy,Scott,Male,2021-09-23,Software Engineering,Software Engineer – Full-Stack,L2,Engineering – Data Systems,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,141500,USD,2025-01-01
+EMP-1322,Jessica,Jimenez,Female,2020-10-04,Product Management,Product Manager,L3,Product – Consumer,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,160000,USD,2025-01-01
+EMP-1752,Robert,Thompson,Male,2020-05-26,Corporate,Financial Analyst,L2,Finance,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,92500,USD,2025-01-01
+EMP-1751,Patricia,Foster,Female,2021-10-29,Corporate,Financial Analyst,L2,People Operations,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,72500,USD,2025-01-01
+EMP-1650,Edward,Miller,Male,2018-04-21,Sales & Account Management,Account Executive,L3,Sales – Enterprise,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,114000,USD,2025-01-01
+EMP-1541,Amanda,Sanders,Female,2017-06-11,DevOps / Platform / SRE,Cloud Infrastructure Engineer,L3,Infrastructure & SRE,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,162000,USD,2025-01-01
+EMP-1620,Timothy,Miller,Male,2021-05-25,Sales & Account Management,Sales Development Rep,L1,Sales – Enterprise,Denver CO,"Denver-Aurora-Lakewood, CO",19740,64000,USD,2025-01-01
+EMP-1421,George,Ortiz,Male,2024-11-09,Clinical Informatics / Health IT,Health IT Specialist,L3,Implementation Services,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,123500,USD,2025-01-01
+EMP-1570,Dorothy,Bailey,Female,2018-08-02,IT / Systems Administration,Systems Administrator,L3,IT Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,123500,USD,2025-01-01
+EMP-1439,Timothy,Jackson,Male,2017-08-20,UX / Design,UX Researcher,L2,Design & UX,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,98000,USD,2025-01-01
+EMP-1453,Ryan,Wilson,Male,2024-11-18,UX / Design,Product Designer,L2,Design & UX,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,78000,USD,2025-01-01
+EMP-1452,William,Gonzalez,Male,2023-01-13,UX / Design,Product Designer,L2,Design & UX,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,77000,USD,2025-01-01
+EMP-1312,Joseph,Young,Male,2017-12-12,Product Management,Product Manager,L2,Product – Platform,Denver CO,"Denver-Aurora-Lakewood, CO",19740,103500,USD,2025-01-01
+EMP-1400,Matthew,Hernandez,Male,2024-01-29,Clinical Informatics / Health IT,Interoperability Analyst,L5,Clinical Informatics,Denver CO,"Denver-Aurora-Lakewood, CO",19740,215000,USD,2025-01-01
+EMP-1054,Elizabeth,Moore,Female,2021-04-18,Software Engineering,Software Engineer – Mobile,L2,Engineering – Consumer Product,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,127000,USD,2025-01-01
+EMP-1741,Gary,Anderson,Male,2022-07-24,Corporate,Financial Analyst,L2,Legal & Compliance,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,83000,USD,2025-01-01
+EMP-1386,Mark,Lewis,Male,2024-08-07,Clinical Informatics / Health IT,EHR Implementation Analyst,L1,Clinical Informatics,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,99000,USD,2025-01-01
+EMP-1430,Rebecca,Wilson,Female,2019-03-14,Clinical Informatics / Health IT,Clinical Informatics Analyst,L1,Clinical Informatics,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,93000,USD,2025-01-01
+EMP-1234,Patricia,Walker,Female,2018-02-18,Data & Analytics,BI Analyst,L2,Data Science,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,113000,USD,2025-01-01
+EMP-1739,James,Sanders,Male,2019-05-27,Corporate,FP&A Analyst,L4,Operations,Denver CO,"Denver-Aurora-Lakewood, CO",19740,114500,USD,2025-01-01
+EMP-1532,George,Diaz,Male,2022-08-04,DevOps / Platform / SRE,Staff SRE,L5,Infrastructure & SRE,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,276500,USD,2025-01-01
+EMP-1025,Amy,Martin,Female,2017-08-28,Software Engineering,Software Engineer – Full-Stack,L3,Engineering – Core Platform,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,118000,USD,2025-01-01
+EMP-1361,Timothy,Hall,Male,2018-02-20,Clinical Informatics / Health IT,EHR Implementation Analyst,L3,Health IT,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,142000,USD,2025-01-01
+EMP-1053,Eric,Brooks,Male,2021-12-07,Software Engineering,Software Engineer – Frontend,L3,Engineering – Core Platform,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,149000,USD,2025-01-01
+EMP-1342,Gary,Miller,Male,2023-06-09,Product Management,Product Manager,L4,Product – Consumer,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,179500,USD,2025-01-01
+EMP-1606,Donna,Hill,Female,2020-08-19,IT / Systems Administration,IT Support Specialist,L1,IT Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,73000,USD,2025-01-01
+EMP-1263,Joshua,Young,Male,2017-12-03,Data & Analytics,Senior Data Scientist,L4,Business Intelligence,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,178000,USD,2025-01-01
+EMP-1674,Sandra,Rodriguez,Female,2021-10-12,Sales & Account Management,Sales Development Rep,L2,Sales – Mid-Market,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,123000,USD,2025-01-01
+EMP-1353,Linda,Williams,Female,2024-11-26,Product Management,Product Manager,L2,Product – Platform,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,108500,USD,2025-01-01
+EMP-1691,Thomas,Howard,Male,2021-09-08,Sales & Account Management,Sales Engineer,L3,Sales – Enterprise,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,153000,USD,2025-01-01
+EMP-1077,Nicholas,Anderson,Male,2021-06-30,Software Engineering,Software Engineer – Frontend,L2,Engineering – Mobile,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,151000,USD,2025-01-01
+EMP-1458,Sarah,Long,Female,2023-02-14,UX / Design,Senior UX Designer,L4,Design & UX,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,170000,USD,2025-01-01
+EMP-1136,William,Wright,Male,2021-10-03,Software Engineering,QA Engineer / SDET,L1,Engineering – Mobile,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,91000,USD,2025-01-01
+EMP-1661,Jason,Thompson,Male,2018-03-21,Sales & Account Management,Account Executive,L2,Sales – Enterprise,Denver CO,"Denver-Aurora-Lakewood, CO",19740,95000,USD,2025-01-01
+EMP-1449,Kathleen,Reed,Female,2024-04-13,UX / Design,Senior UX Designer,L3,Design & UX,Denver CO,"Denver-Aurora-Lakewood, CO",19740,119500,USD,2025-01-01
+EMP-1394,Carol,Sanders,Female,2024-09-12,Clinical Informatics / Health IT,EHR Implementation Analyst,L2,Implementation Services,Denver CO,"Denver-Aurora-Lakewood, CO",19740,106500,USD,2025-01-01
+EMP-1023,Reese,Ross,Prefer not to say,2018-11-13,Software Engineering,Software Engineer – Backend,L5,Engineering – Mobile,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,276000,USD,2025-01-01
+EMP-1393,Emily,King,Female,2021-07-16,Clinical Informatics / Health IT,EHR Implementation Analyst,L3,Health IT,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,133500,USD,2025-01-01
+EMP-1181,John,Collins,Male,2024-12-31,Software Engineering,Software Engineer – Mobile,L5,Engineering – Mobile,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,279500,USD,2025-01-01
+EMP-1571,David,Torres,Male,2024-10-23,IT / Systems Administration,Systems Administrator,L4,IT Operations,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,143500,USD,2025-01-01
+EMP-1174,William,Patel,Male,2021-10-30,Software Engineering,Software Engineer – Mobile,L2,Engineering – Consumer Product,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,121000,USD,2025-01-01
+EMP-1518,Elizabeth,Lee,Female,2020-07-08,DevOps / Platform / SRE,Platform Engineer,L4,Infrastructure & SRE,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,209000,USD,2025-01-01
+EMP-1249,Eric,White,Male,2023-01-30,Data & Analytics,Data Engineer,L2,Data Science,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,129500,USD,2025-01-01
+EMP-1600,Timothy,Rodriguez,Male,2023-03-05,IT / Systems Administration,Senior Systems Administrator,L4,IT Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,168000,USD,2025-01-01
+EMP-1287,Elizabeth,Mendoza,Female,2020-06-04,Data & Analytics,Data Analyst,L3,Data & Analytics,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,129000,USD,2025-01-01
+EMP-1061,Edward,Lewis,Male,2024-04-23,Software Engineering,QA Engineer / SDET,L2,Engineering – Core Platform,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,109500,USD,2025-01-01
+EMP-1760,Kevin,Campbell,Male,2019-04-07,Corporate,Financial Analyst,L3,Operations,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,103000,USD,2025-01-01
+EMP-1316,Skyler,Martinez,Non-binary,2017-10-04,Product Management,Product Manager,L3,Product – Platform,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,131000,USD,2025-01-01
+EMP-1058,Lisa,Stewart,Female,2023-12-24,Software Engineering,Software Engineer – Frontend,L2,Engineering – Core Platform,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,116000,USD,2025-01-01
+EMP-1220,Stephanie,Parker,Female,2024-07-04,Data & Analytics,Data Engineer,L4,Data & Analytics,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,209000,USD,2025-01-01
+EMP-1799,Edward,Lopez,Male,2020-03-09,Corporate,Financial Analyst,L1,Finance,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,51000,USD,2025-01-01
+EMP-1032,Thomas,Wright,Male,2019-05-13,Software Engineering,QA Engineer / SDET,L1,Engineering – Data Systems,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,103000,USD,2025-01-01
+EMP-1413,William,Gutierrez,Male,2018-02-19,Clinical Informatics / Health IT,Clinical Informatics Analyst,L1,Health IT,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,66500,USD,2025-01-01
+EMP-1647,Charles,Ward,Male,2023-08-21,Sales & Account Management,Sales Development Rep,L1,Customer Success,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,71000,USD,2025-01-01
+EMP-1257,Sandra,Ramirez,Female,2023-05-11,Data & Analytics,BI Analyst,L3,Business Intelligence,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,154500,USD,2025-01-01
+EMP-1457,Elizabeth,Torres,Female,2021-11-28,UX / Design,Senior UX Designer,L3,Design & UX,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,147500,USD,2025-01-01
+EMP-1440,Karen,Davis,Female,2020-04-23,UX / Design,UX Designer,L3,Design & UX,Denver CO,"Denver-Aurora-Lakewood, CO",19740,116000,USD,2025-01-01
+EMP-1423,Amy,Perez,Female,2022-07-07,Clinical Informatics / Health IT,Clinical Informatics Analyst,L2,Health IT,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,117500,USD,2025-01-01
+EMP-1605,Robert,Nelson,Male,2024-02-25,IT / Systems Administration,IT Analyst,L2,IT Operations,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,71000,USD,2025-01-01
+EMP-1757,Barbara,Flores,Female,2018-11-27,Corporate,HRBP,L4,People Operations,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,108500,USD,2025-01-01
+EMP-1346,Amy,Hall,Female,2022-08-20,Product Management,Director of Product,L6,Product – Consumer,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,383500,USD,2025-01-01
+EMP-1733,Carol,Thompson,Female,2017-04-28,Corporate,HR Specialist,L2,People Operations,Denver CO,"Denver-Aurora-Lakewood, CO",19740,79500,USD,2025-01-01
+EMP-1133,Kenneth,Price,Male,2020-10-23,Software Engineering,Software Engineer – Mobile,L3,Engineering – Data Systems,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,142500,USD,2025-01-01
+EMP-1451,Emily,Brown,Female,2021-03-16,UX / Design,UX Researcher,L4,Design & UX,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,190000,USD,2025-01-01
+EMP-1641,Nicholas,Hughes,Male,2022-11-27,Sales & Account Management,Sales Development Rep,L1,Sales – Mid-Market,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,76500,USD,2025-01-01
+EMP-1009,Sharon,Ramos,Female,2019-06-18,Software Engineering,Software Engineer – Backend,L1,Engineering – Consumer Product,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,79000,USD,2025-01-01
+EMP-1024,Timothy,Smith,Male,2019-12-23,Software Engineering,Software Engineer – Frontend,L1,Engineering – Mobile,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,113500,USD,2025-01-01
+EMP-1285,Gary,Anderson,Male,2022-06-28,Data & Analytics,Data Analyst,L3,Data Science,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,170000,USD,2025-01-01
+EMP-1107,Kimberly,Johnson,Female,2017-07-20,Software Engineering,Staff Software Engineer,L5,Engineering – Mobile,Denver CO,"Denver-Aurora-Lakewood, CO",19740,226000,USD,2025-01-01
+EMP-1120,Margaret,Rodriguez,Female,2023-03-21,Software Engineering,Software Engineer – Backend,L2,Engineering – Consumer Product,Denver CO,"Denver-Aurora-Lakewood, CO",19740,120500,USD,2025-01-01
+EMP-1155,Eric,Harris,Male,2018-07-18,Software Engineering,Software Engineer – Backend,L2,Engineering – Consumer Product,Denver CO,"Denver-Aurora-Lakewood, CO",19740,108000,USD,2025-01-01
+EMP-1505,Amy,Richardson,Female,2023-01-27,DevOps / Platform / SRE,DevOps Engineer,L2,Platform Engineering,Denver CO,"Denver-Aurora-Lakewood, CO",19740,94500,USD,2025-01-01
+EMP-1565,Steven,Young,Male,2021-10-28,IT / Systems Administration,Network Administrator,L3,IT Operations,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,83500,USD,2025-01-01
+EMP-1103,Matthew,Hernandez,Male,2021-04-16,Software Engineering,Software Engineer – Full-Stack,L2,Engineering – Consumer Product,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,108500,USD,2025-01-01
+EMP-1503,Kenneth,White,Male,2024-08-30,DevOps / Platform / SRE,DevOps Engineer,L4,Platform Engineering,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,236000,USD,2025-01-01
+EMP-1160,Andrew,Miller,Male,2021-03-01,Software Engineering,QA Engineer / SDET,L3,Engineering – Core Platform,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,159500,USD,2025-01-01
+EMP-1707,Shirley,Bailey,Female,2020-05-30,Sales & Account Management,Account Executive,L3,Customer Success,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,140500,USD,2025-01-01
+EMP-1177,Lisa,Brown,Female,2021-11-30,Software Engineering,Software Engineer – Backend,L3,Engineering – Core Platform,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,151000,USD,2025-01-01
+EMP-1747,Jason,Murphy,Male,2018-08-27,Corporate,General Operations Manager,L5,Operations,Denver CO,"Denver-Aurora-Lakewood, CO",19740,161000,USD,2025-01-01
+EMP-1494,Nancy,Chavez,Female,2017-02-13,DevOps / Platform / SRE,Site Reliability Engineer,L3,Platform Engineering,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,130000,USD,2025-01-01
+EMP-1589,Karen,Stewart,Female,2022-01-25,IT / Systems Administration,IT Support Specialist,L1,IT Operations,Denver CO,"Denver-Aurora-Lakewood, CO",19740,62000,USD,2025-01-01
+EMP-1743,Ryan,Harris,Male,2022-05-03,Corporate,Accountant,L3,Legal & Compliance,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,131500,USD,2025-01-01
+EMP-1212,Margaret,Sanchez,Female,2023-04-22,Data & Analytics,Data Analyst,L3,Data Science,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,129500,USD,2025-01-01
+EMP-1554,Steven,Kelly,Male,2021-03-17,DevOps / Platform / SRE,Platform Engineer,L4,Infrastructure & SRE,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,194500,USD,2025-01-01
+EMP-1483,Michael,Sanchez,Male,2022-08-28,UX / Design,Product Designer,L2,Design & UX,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,105500,USD,2025-01-01
+EMP-1368,Timothy,White,Male,2021-04-12,Clinical Informatics / Health IT,EHR Implementation Analyst,L2,Health IT,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,108500,USD,2025-01-01
+EMP-1636,Anthony,Reed,Male,2021-01-15,Sales & Account Management,Senior Account Executive,L4,Sales – Mid-Market,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,141500,USD,2025-01-01
+EMP-1399,Thomas,Moore,Male,2020-11-04,Clinical Informatics / Health IT,Interoperability Analyst,L3,Health IT,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,185000,USD,2025-01-01
+EMP-1300,Elizabeth,Evans,Female,2020-02-14,Product Management,Product Manager,L2,Product – Clinical,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,135500,USD,2025-01-01
+EMP-1713,Joshua,Morris,Male,2023-06-08,Sales & Account Management,Sales Development Rep,L2,Customer Success,Denver CO,"Denver-Aurora-Lakewood, CO",19740,100500,USD,2025-01-01
+EMP-1763,Angela,Hill,Female,2023-01-21,Corporate,Financial Analyst,L2,Legal & Compliance,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,95000,USD,2025-01-01
+EMP-1347,Kenneth,Davis,Male,2022-04-17,Product Management,Product Manager,L2,Product – Clinical,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,136000,USD,2025-01-01
+EMP-1224,Melissa,Diaz,Female,2022-04-13,Data & Analytics,Data Scientist,L2,Data Science,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,143500,USD,2025-01-01
+EMP-1519,Jacob,Campbell,Male,2022-11-04,DevOps / Platform / SRE,Site Reliability Engineer,L4,Infrastructure & SRE,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,176000,USD,2025-01-01
+EMP-1556,Brian,Williams,Male,2024-09-26,DevOps / Platform / SRE,Cloud Infrastructure Engineer,L2,Infrastructure & SRE,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,136000,USD,2025-01-01
+EMP-1448,Jason,Lopez,Male,2019-05-24,UX / Design,UX Researcher,L3,Design & UX,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,117500,USD,2025-01-01
+EMP-1352,Mary,Nelson,Female,2019-04-06,Product Management,Product Manager,L2,Product – Platform,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,147000,USD,2025-01-01
+EMP-1480,Drew,Williams,Prefer not to say,2024-06-03,UX / Design,UX Researcher,L3,Design & UX,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,145000,USD,2025-01-01
+EMP-1196,Sage,Reyes,Non-binary,2019-06-01,Software Engineering,Software Engineer – Frontend,L2,Engineering – Data Systems,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,158000,USD,2025-01-01
+EMP-1294,Ashley,Hill,Female,2019-12-13,Data & Analytics,Senior Data Scientist,L4,Business Intelligence,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,213000,USD,2025-01-01
+EMP-1165,Sharon,Anderson,Female,2019-09-01,Software Engineering,Software Engineer – Full-Stack,L1,Engineering – Data Systems,Denver CO,"Denver-Aurora-Lakewood, CO",19740,89000,USD,2025-01-01
+EMP-1729,Brian,Ruiz,Male,2020-01-17,Corporate,General Operations Manager,L4,Legal & Compliance,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,168000,USD,2025-01-01
+EMP-1592,Ronald,Hernandez,Male,2021-04-23,IT / Systems Administration,IT Analyst,L2,IT Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,97500,USD,2025-01-01
+EMP-1459,Melissa,Johnson,Female,2023-03-24,UX / Design,UX Researcher,L2,Design & UX,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,83500,USD,2025-01-01
+EMP-1355,Ryan,Chavez,Male,2024-04-13,Clinical Informatics / Health IT,Clinical Informatics Analyst,L2,Health IT,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,142500,USD,2025-01-01
+EMP-1506,Pamela,Scott,Female,2022-09-25,DevOps / Platform / SRE,Cloud Infrastructure Engineer,L2,Infrastructure & SRE,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,130000,USD,2025-01-01
+EMP-1651,Anna,Robinson,Female,2024-11-30,Sales & Account Management,Account Executive,L2,Sales – Mid-Market,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,109000,USD,2025-01-01
+EMP-1484,Jennifer,Cooper,Female,2018-04-27,UX / Design,UX Researcher,L3,Design & UX,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,140500,USD,2025-01-01
+EMP-1427,George,Campbell,Male,2019-07-03,Clinical Informatics / Health IT,Interoperability Analyst,L4,Health IT,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,169500,USD,2025-01-01
+EMP-1702,Anna,Nguyen,Female,2021-02-16,Sales & Account Management,Account Manager,L2,Customer Success,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,87000,USD,2025-01-01
+EMP-1065,Donna,Ruiz,Female,2023-05-08,Software Engineering,Software Engineer – Frontend,L3,Engineering – Core Platform,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,168000,USD,2025-01-01
+EMP-1323,Barbara,Cook,Female,2021-01-15,Product Management,Product Manager,L2,Product – Platform,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,100500,USD,2025-01-01
+EMP-1787,Mary,Castillo,Female,2022-02-02,Corporate,HR Specialist,L3,Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,123000,USD,2025-01-01
+EMP-1019,Joseph,Sanders,Male,2023-05-28,Software Engineering,Software Engineer – Backend,L2,Engineering – Mobile,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,117000,USD,2025-01-01
+EMP-1540,Sarah,Murphy,Female,2023-04-07,DevOps / Platform / SRE,DevOps Engineer,L3,Infrastructure & SRE,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,124500,USD,2025-01-01
+EMP-1062,Thomas,Walker,Male,2024-07-05,Software Engineering,Software Engineer – Mobile,L5,Engineering – Core Platform,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,275500,USD,2025-01-01
+EMP-1237,Shirley,Lewis,Female,2023-03-31,Data & Analytics,Analytics Engineer,L4,Data Science,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,207500,USD,2025-01-01
+EMP-1561,Deborah,Miller,Female,2017-06-18,DevOps / Platform / SRE,Staff SRE,L6,Infrastructure & SRE,Denver CO,"Denver-Aurora-Lakewood, CO",19740,282500,USD,2025-01-01
+EMP-1658,Matthew,Anderson,Male,2019-11-04,Sales & Account Management,Customer Success Manager,L2,Sales – Mid-Market,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,103500,USD,2025-01-01
+EMP-1497,William,Bailey,Male,2023-04-10,DevOps / Platform / SRE,Site Reliability Engineer,L3,Infrastructure & SRE,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,126000,USD,2025-01-01
+EMP-1409,James,Hill,Male,2018-02-18,Clinical Informatics / Health IT,Health IT Specialist,L3,Implementation Services,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,155000,USD,2025-01-01
+EMP-1499,Charles,Gutierrez,Male,2023-01-13,DevOps / Platform / SRE,Platform Engineer,L3,Infrastructure & SRE,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,191500,USD,2025-01-01
+EMP-1037,Cameron,Martin,Prefer not to say,2019-08-28,Software Engineering,Software Engineer – Full-Stack,L3,Engineering – Consumer Product,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,170000,USD,2025-01-01
+EMP-1676,Jeffrey,Perez,Male,2023-03-17,Sales & Account Management,Account Manager,L2,Sales – Enterprise,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,120500,USD,2025-01-01
+EMP-1682,Nicholas,Cook,Male,2024-07-07,Sales & Account Management,Account Executive,L2,Sales – Enterprise,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,110000,USD,2025-01-01
+EMP-1425,Brian,Thomas,Male,2024-04-30,Clinical Informatics / Health IT,Health IT Specialist,L3,Clinical Informatics,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,183500,USD,2025-01-01
+EMP-1717,Eric,Green,Male,2022-09-27,Sales & Account Management,Customer Success Manager,L4,Sales – Enterprise,Denver CO,"Denver-Aurora-Lakewood, CO",19740,156000,USD,2025-01-01
+EMP-1105,Kevin,Chavez,Male,2024-09-28,Software Engineering,Software Engineer – Mobile,L2,Engineering – Data Systems,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,150000,USD,2025-01-01
+EMP-1008,Brian,Ramirez,Male,2021-06-09,Software Engineering,QA Engineer / SDET,L3,Engineering – Mobile,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,177500,USD,2025-01-01
+EMP-1341,John,Sanchez,Male,2021-12-22,Product Management,Product Manager,L2,Product – Platform,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,125500,USD,2025-01-01
+EMP-1052,Angela,Parker,Female,2018-10-14,Software Engineering,QA Engineer / SDET,L4,Engineering – Mobile,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,174500,USD,2025-01-01
+EMP-1401,Daniel,Howard,Male,2022-06-29,Clinical Informatics / Health IT,Senior Clinical Informatics Analyst,L3,Clinical Informatics,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,163500,USD,2025-01-01
+EMP-1301,James,Patel,Male,2022-02-21,Product Management,Principal Product Manager,L5,Product – Clinical,Denver CO,"Denver-Aurora-Lakewood, CO",19740,206000,USD,2025-01-01
+EMP-1206,Jeffrey,Martin,Male,2019-04-16,Data & Analytics,Data Engineer,L3,Business Intelligence,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,174500,USD,2025-01-01
+EMP-1248,Carol,Allen,Female,2024-03-13,Data & Analytics,Data Scientist,L4,Data Science,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,212500,USD,2025-01-01
+EMP-1631,Mary,Ross,Female,2018-09-04,Sales & Account Management,Sales Development Rep,L2,Sales – Mid-Market,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,93500,USD,2025-01-01
+EMP-1020,Ryan,Rivera,Male,2022-03-28,Software Engineering,Software Engineer – Full-Stack,L2,Engineering – Core Platform,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,134500,USD,2025-01-01
+EMP-1482,Dorothy,Perez,Female,2020-11-04,UX / Design,UX Researcher,L4,Design & UX,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,189500,USD,2025-01-01
+EMP-1496,Skyler,Evans,Prefer not to say,2021-06-07,DevOps / Platform / SRE,DevOps Engineer,L2,Infrastructure & SRE,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,133000,USD,2025-01-01
+EMP-1455,Sandra,King,Female,2022-01-22,UX / Design,UX Designer,L3,Design & UX,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,104000,USD,2025-01-01
+EMP-1156,Shirley,Jones,Female,2023-12-07,Software Engineering,Software Engineer – Backend,L4,Engineering – Consumer Product,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,228500,USD,2025-01-01
+EMP-1170,Cynthia,Price,Female,2019-01-17,Software Engineering,Software Engineer – Backend,L2,Engineering – Consumer Product,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,135500,USD,2025-01-01
+EMP-1738,Angela,Kelly,Female,2023-06-27,Corporate,Financial Analyst,L3,People Operations,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,94500,USD,2025-01-01
+EMP-1022,Barbara,Edwards,Female,2023-03-05,Software Engineering,Software Engineer – Backend,L1,Engineering – Core Platform,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,107500,USD,2025-01-01
+EMP-1776,Robert,Myers,Male,2017-08-12,Corporate,Financial Analyst,L3,Finance,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,108000,USD,2025-01-01
+EMP-1485,Sharon,Ortiz,Female,2017-06-27,DevOps / Platform / SRE,Platform Engineer,L3,Infrastructure & SRE,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,128500,USD,2025-01-01
+EMP-1151,Melissa,Mitchell,Female,2020-10-17,Software Engineering,Software Engineer – Mobile,L5,Engineering – Core Platform,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,290000,USD,2025-01-01
+EMP-1686,Eric,Miller,Male,2018-08-17,Sales & Account Management,Senior Account Executive,L4,Sales – Enterprise,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,178500,USD,2025-01-01
+EMP-1308,Avery,Hughes,Prefer not to say,2017-10-18,Product Management,Product Manager,L3,Product – Platform,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,138000,USD,2025-01-01
+EMP-1088,Emily,Bennett,Female,2023-03-04,Software Engineering,Software Engineer – Mobile,L4,Engineering – Core Platform,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,233000,USD,2025-01-01
+EMP-1633,Elizabeth,Ramos,Female,2022-09-22,Sales & Account Management,Sales Engineer,L5,Sales – Mid-Market,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,158500,USD,2025-01-01
+EMP-1551,Nancy,Reed,Female,2021-08-28,DevOps / Platform / SRE,DevOps Engineer,L3,Platform Engineering,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,181000,USD,2025-01-01
+EMP-1446,Karen,Garcia,Female,2020-08-14,UX / Design,Product Designer,L2,Design & UX,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,97500,USD,2025-01-01
+EMP-1247,Rebecca,Nguyen,Female,2020-09-13,Data & Analytics,Data Analyst,L1,Data & Analytics,Denver CO,"Denver-Aurora-Lakewood, CO",19740,78000,USD,2025-01-01
+EMP-1148,Jordan,Richardson,Prefer not to say,2021-04-24,Software Engineering,Software Engineer – Full-Stack,L2,Engineering – Mobile,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,108500,USD,2025-01-01
+EMP-1492,Timothy,Chavez,Male,2018-01-09,DevOps / Platform / SRE,Cloud Infrastructure Engineer,L3,Platform Engineering,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,114000,USD,2025-01-01
+EMP-1214,Joseph,Smith,Male,2018-10-09,Data & Analytics,Data Scientist,L2,Business Intelligence,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,146500,USD,2025-01-01
+EMP-1027,Steven,Ramos,Male,2023-12-12,Software Engineering,Software Engineer – Backend,L1,Engineering – Core Platform,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,93000,USD,2025-01-01
+EMP-1192,David,Lee,Male,2022-06-07,Software Engineering,Software Engineer – Full-Stack,L3,Engineering – Mobile,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,171500,USD,2025-01-01
+EMP-1680,Donna,Hall,Female,2023-04-04,Sales & Account Management,Account Executive,L3,Sales – Enterprise,Denver CO,"Denver-Aurora-Lakewood, CO",19740,117000,USD,2025-01-01
+EMP-1114,Brenda,Adams,Female,2019-06-26,Software Engineering,Software Engineer – Backend,L2,Engineering – Core Platform,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,155000,USD,2025-01-01
+EMP-1195,Brian,Harris,Male,2022-08-03,Software Engineering,Software Engineer – Full-Stack,L4,Engineering – Mobile,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,246000,USD,2025-01-01
+EMP-1014,Brian,Murphy,Male,2021-01-26,Software Engineering,Software Engineer – Frontend,L3,Engineering – Data Systems,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,153500,USD,2025-01-01
+EMP-1138,Alex,Smith,Prefer not to say,2019-05-16,Software Engineering,Software Engineer – Frontend,L2,Engineering – Consumer Product,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,135000,USD,2025-01-01
+EMP-1128,Ryan,Green,Male,2021-03-14,Software Engineering,Software Engineer – Full-Stack,L2,Engineering – Consumer Product,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,139500,USD,2025-01-01
+EMP-1089,Avery,Gutierrez,Prefer not to say,2017-01-05,Software Engineering,Software Engineer – Frontend,L2,Engineering – Mobile,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,144000,USD,2025-01-01
+EMP-1309,Kevin,Moore,Male,2018-06-30,Product Management,Product Manager,L3,Product – Clinical,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,169000,USD,2025-01-01
+EMP-1714,Charles,Patel,Male,2017-06-14,Sales & Account Management,Sales Development Rep,L2,Sales – Enterprise,Denver CO,"Denver-Aurora-Lakewood, CO",19740,92500,USD,2025-01-01
+EMP-1369,Kenneth,Kelly,Male,2024-10-23,Clinical Informatics / Health IT,Clinical Informatics Analyst,L1,Implementation Services,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,84000,USD,2025-01-01
+EMP-1310,Daniel,Edwards,Male,2019-05-23,Product Management,Director of Product,L6,Product – Clinical,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,338000,USD,2025-01-01
+EMP-1498,Quinn,Evans,Prefer not to say,2019-12-06,DevOps / Platform / SRE,Senior DevOps Engineer,L4,Platform Engineering,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,227500,USD,2025-01-01
+EMP-1414,David,Gonzalez,Male,2017-06-11,Clinical Informatics / Health IT,EHR Implementation Analyst,L2,Health IT,Denver CO,"Denver-Aurora-Lakewood, CO",19740,108500,USD,2025-01-01
+EMP-1765,Cynthia,Wright,Female,2022-12-23,Corporate,FP&A Analyst,L3,Operations,Denver CO,"Denver-Aurora-Lakewood, CO",19740,107500,USD,2025-01-01
+EMP-1488,Rebecca,Campbell,Female,2021-10-12,DevOps / Platform / SRE,Platform Engineer,L3,Infrastructure & SRE,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,160500,USD,2025-01-01
+EMP-1175,Donna,Collins,Female,2021-10-12,Software Engineering,Software Engineer – Frontend,L2,Engineering – Consumer Product,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,145000,USD,2025-01-01
+EMP-1013,Angela,Ward,Female,2021-03-12,Software Engineering,Software Engineer – Frontend,L1,Engineering – Consumer Product,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,76000,USD,2025-01-01
+EMP-1119,Dakota,Reyes,Non-binary,2019-05-19,Software Engineering,Software Engineer – Backend,L2,Engineering – Core Platform,Denver CO,"Denver-Aurora-Lakewood, CO",19740,104000,USD,2025-01-01
+EMP-1404,Richard,Roberts,Male,2020-06-07,Clinical Informatics / Health IT,EHR Implementation Analyst,L1,Clinical Informatics,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,83000,USD,2025-01-01
+EMP-1756,Edward,Turner,Male,2024-06-01,Corporate,General Operations Manager,L5,Finance,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,186500,USD,2025-01-01
+EMP-1018,David,Robinson,Male,2017-05-09,Software Engineering,Software Engineer – Backend,L3,Engineering – Data Systems,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,124000,USD,2025-01-01
+EMP-1547,Timothy,Bennett,Male,2023-12-31,DevOps / Platform / SRE,Cloud Infrastructure Engineer,L2,Infrastructure & SRE,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,130000,USD,2025-01-01
+EMP-1781,Cynthia,Hughes,Female,2017-08-02,Corporate,Financial Analyst,L2,Finance,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,72000,USD,2025-01-01
+EMP-1770,Jennifer,Sanders,Female,2017-03-23,Corporate,General Operations Manager,L4,People Operations,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,118500,USD,2025-01-01
+EMP-1265,Jacob,Reed,Male,2021-07-30,Data & Analytics,Data Scientist,L2,Data & Analytics,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,140000,USD,2025-01-01
+EMP-1618,Mark,Peterson,Male,2020-07-28,IT / Systems Administration,Systems Administrator,L2,IT Operations,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,71000,USD,2025-01-01
+EMP-1080,Mark,Brooks,Male,2024-05-29,Software Engineering,Software Engineer – Frontend,L1,Engineering – Core Platform,Denver CO,"Denver-Aurora-Lakewood, CO",19740,81000,USD,2025-01-01
+EMP-1189,Daniel,Kim,Male,2018-09-24,Software Engineering,Software Engineer – Backend,L2,Engineering – Consumer Product,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,149000,USD,2025-01-01
+EMP-1746,Ryan,Sanders,Male,2023-07-12,Corporate,HRBP,L4,Legal & Compliance,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,151000,USD,2025-01-01
+EMP-1191,Amy,Brooks,Female,2020-05-22,Software Engineering,Software Engineer – Mobile,L4,Engineering – Mobile,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,211500,USD,2025-01-01
+EMP-1687,Anthony,Brooks,Male,2020-01-10,Sales & Account Management,Sales Engineer,L3,Sales – Enterprise,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,138500,USD,2025-01-01
+EMP-1271,Brian,Thompson,Male,2020-07-31,Data & Analytics,Data Analyst,L2,Business Intelligence,Denver CO,"Denver-Aurora-Lakewood, CO",19740,122500,USD,2025-01-01
+EMP-1460,Elizabeth,Flores,Female,2020-11-09,UX / Design,UX Designer,L1,Design & UX,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,58500,USD,2025-01-01
+EMP-1465,James,Green,Male,2019-06-27,UX / Design,Product Designer,L2,Design & UX,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,100000,USD,2025-01-01
+EMP-1601,Jeffrey,Morgan,Male,2019-05-07,IT / Systems Administration,Systems Administrator,L2,IT Operations,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,68500,USD,2025-01-01
+EMP-1321,Eric,Hall,Male,2019-11-28,Product Management,Product Manager,L2,Product – Platform,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,135500,USD,2025-01-01
+EMP-1304,Daniel,Edwards,Male,2021-10-19,Product Management,Product Manager,L3,Product – Platform,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,163000,USD,2025-01-01
+EMP-1788,Kimberly,Torres,Female,2021-04-14,Corporate,HR Specialist,L3,Finance,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,128000,USD,2025-01-01
+EMP-1677,Timothy,Lee,Male,2022-06-18,Sales & Account Management,Account Manager,L4,Sales – Enterprise,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,169000,USD,2025-01-01
+EMP-1744,Jacob,Ortiz,Male,2017-12-15,Corporate,HRBP,L5,People Operations,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,198000,USD,2025-01-01
+EMP-1402,Nicholas,Roberts,Male,2022-12-27,Clinical Informatics / Health IT,Clinical Informatics Analyst,L2,Clinical Informatics,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,107000,USD,2025-01-01
+EMP-1186,Drew,Martinez,Prefer not to say,2024-08-17,Software Engineering,Software Engineer – Mobile,L4,Engineering – Data Systems,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,233000,USD,2025-01-01
+EMP-1183,Drew,Thompson,Non-binary,2022-09-15,Software Engineering,QA Engineer / SDET,L4,Engineering – Consumer Product,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,185500,USD,2025-01-01
+EMP-1473,Jennifer,Garcia,Female,2020-08-20,UX / Design,Product Designer,L4,Design & UX,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,196500,USD,2025-01-01
+EMP-1116,Jeffrey,Kim,Male,2018-09-25,Software Engineering,Software Engineer – Backend,L4,Engineering – Mobile,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,245000,USD,2025-01-01
+EMP-1016,Ryan,Ramirez,Male,2024-09-26,Software Engineering,Software Engineer – Backend,L2,Engineering – Consumer Product,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,148000,USD,2025-01-01
+EMP-1515,Michael,Turner,Male,2024-08-15,DevOps / Platform / SRE,Senior DevOps Engineer,L4,Platform Engineering,Denver CO,"Denver-Aurora-Lakewood, CO",19740,166000,USD,2025-01-01
+EMP-1766,Gary,Jackson,Male,2024-09-08,Corporate,Paralegal,L3,Legal & Compliance,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,116500,USD,2025-01-01
+EMP-1793,Drew,Mitchell,Prefer not to say,2023-04-11,Corporate,HR Specialist,L2,People Operations,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,84500,USD,2025-01-01
+EMP-1260,Deborah,Ross,Female,2024-09-24,Data & Analytics,Data Engineer,L4,Data Science,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,169000,USD,2025-01-01
+EMP-1363,Timothy,Lee,Male,2023-02-19,Clinical Informatics / Health IT,Clinical Informatics Analyst,L1,Clinical Informatics,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,100500,USD,2025-01-01
+EMP-1259,Stephanie,Martinez,Female,2023-04-29,Data & Analytics,BI Analyst,L2,Data & Analytics,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,115500,USD,2025-01-01
+EMP-1684,Steven,Sanders,Male,2023-07-03,Sales & Account Management,Account Executive,L3,Sales – Mid-Market,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,140500,USD,2025-01-01
+EMP-1475,Shirley,Allen,Female,2019-07-02,UX / Design,Product Designer,L2,Design & UX,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,81000,USD,2025-01-01
+EMP-1780,Susan,Lee,Female,2022-09-05,Corporate,Financial Analyst,L2,People Operations,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,85500,USD,2025-01-01
+EMP-1422,Timothy,Martin,Male,2023-04-06,Clinical Informatics / Health IT,Clinical Informatics Analyst,L2,Implementation Services,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,137000,USD,2025-01-01
+EMP-1435,Casey,Collins,Prefer not to say,2018-07-20,UX / Design,UX Researcher,L3,Design & UX,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,149000,USD,2025-01-01
+EMP-1522,Avery,Flores,Non-binary,2020-03-09,DevOps / Platform / SRE,DevOps Engineer,L3,Infrastructure & SRE,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,166000,USD,2025-01-01
+EMP-1110,Jeffrey,Thompson,Male,2023-01-19,Software Engineering,Software Engineer – Frontend,L3,Engineering – Data Systems,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,172000,USD,2025-01-01
+EMP-1688,Charles,Stewart,Male,2018-12-03,Sales & Account Management,Account Executive,L2,Sales – Mid-Market,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,87000,USD,2025-01-01
+EMP-1046,Joshua,Clark,Male,2023-07-04,Software Engineering,Software Engineer – Mobile,L2,Engineering – Data Systems,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,134500,USD,2025-01-01
+EMP-1784,Michelle,Torres,Female,2021-08-25,Corporate,Financial Analyst,L3,Legal & Compliance,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,115000,USD,2025-01-01
+EMP-1564,Ryan,Price,Male,2018-07-07,DevOps / Platform / SRE,Site Reliability Engineer,L3,Infrastructure & SRE,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,154000,USD,2025-01-01
+EMP-1048,Anthony,Jackson,Male,2019-09-30,Software Engineering,Software Engineer – Backend,L5,Engineering – Mobile,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,262500,USD,2025-01-01
+EMP-1748,Sarah,Brown,Female,2017-08-05,Corporate,HR Specialist,L1,People Operations,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,62500,USD,2025-01-01
+EMP-1302,Margaret,Parker,Female,2022-07-20,Product Management,Product Manager,L2,Product – Consumer,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,143000,USD,2025-01-01
+EMP-1437,Joseph,Alvarez,Male,2018-12-30,UX / Design,UX Designer,L2,Design & UX,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,113500,USD,2025-01-01
+EMP-1535,Gary,Myers,Male,2022-11-05,DevOps / Platform / SRE,Cloud Infrastructure Engineer,L3,Platform Engineering,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,136500,USD,2025-01-01
+EMP-1254,Jason,Hernandez,Male,2021-07-22,Data & Analytics,Data Scientist,L3,Business Intelligence,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,173500,USD,2025-01-01
+EMP-1753,Charles,Kelly,Male,2024-05-27,Corporate,Financial Analyst,L1,Operations,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,55500,USD,2025-01-01
+EMP-1130,Charles,Turner,Male,2024-06-18,Software Engineering,Software Engineer – Frontend,L3,Engineering – Mobile,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,133000,USD,2025-01-01
+EMP-1152,Timothy,Torres,Male,2024-05-13,Software Engineering,QA Engineer / SDET,L3,Engineering – Consumer Product,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,174000,USD,2025-01-01
+EMP-1307,Joseph,Kim,Male,2024-08-17,Product Management,Product Manager,L3,Product – Consumer,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,164000,USD,2025-01-01
+EMP-1489,Stephanie,Ross,Female,2023-03-12,DevOps / Platform / SRE,Senior DevOps Engineer,L4,Infrastructure & SRE,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,159500,USD,2025-01-01
+EMP-1081,Jacob,Hughes,Male,2020-04-07,Software Engineering,Software Engineer – Backend,L1,Engineering – Core Platform,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,108500,USD,2025-01-01
+EMP-1447,Edward,Martinez,Male,2020-07-25,UX / Design,UX Researcher,L3,Design & UX,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,127500,USD,2025-01-01
+EMP-1479,Robert,Howard,Male,2018-11-13,UX / Design,UX Designer,L1,Design & UX,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,57500,USD,2025-01-01
+EMP-1297,Joshua,Nguyen,Male,2022-10-09,Data & Analytics,Data Scientist,L2,Data Science,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,134000,USD,2025-01-01
+EMP-1085,Patricia,Lopez,Female,2023-06-15,Software Engineering,Software Engineer – Frontend,L4,Engineering – Core Platform,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,157500,USD,2025-01-01
+EMP-1537,Margaret,Anderson,Female,2021-11-14,DevOps / Platform / SRE,Senior DevOps Engineer,L4,Infrastructure & SRE,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,214500,USD,2025-01-01
+EMP-1723,Kevin,Ramos,Male,2023-04-10,Corporate,HRBP,L3,Operations,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,88500,USD,2025-01-01
+EMP-1644,Joshua,Nguyen,Male,2024-10-17,Sales & Account Management,Account Manager,L3,Customer Success,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,105000,USD,2025-01-01
+EMP-1539,Eric,Lopez,Male,2020-10-18,DevOps / Platform / SRE,Site Reliability Engineer,L3,Platform Engineering,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,154000,USD,2025-01-01
+EMP-1507,Sharon,Morales,Female,2017-05-14,DevOps / Platform / SRE,Senior DevOps Engineer,L4,Infrastructure & SRE,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,247000,USD,2025-01-01
+EMP-1158,Jacob,Robinson,Male,2020-06-21,Software Engineering,Software Engineer – Mobile,L2,Engineering – Mobile,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,136500,USD,2025-01-01
+EMP-1663,Eric,Martin,Male,2017-01-04,Sales & Account Management,Sales Development Rep,L2,Sales – Enterprise,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,103000,USD,2025-01-01
+EMP-1229,Linda,Rodriguez,Female,2022-04-18,Data & Analytics,Data Analyst,L2,Data & Analytics,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,117000,USD,2025-01-01
+EMP-1474,Dorothy,Ramos,Female,2018-12-14,UX / Design,UX Researcher,L3,Design & UX,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,121500,USD,2025-01-01
+EMP-1349,Deborah,Rivera,Female,2018-12-13,Product Management,Product Manager,L4,Product – Platform,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,244000,USD,2025-01-01
+EMP-1525,Paul,Lopez,Male,2021-02-07,DevOps / Platform / SRE,Platform Engineer,L4,Infrastructure & SRE,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,212500,USD,2025-01-01
+EMP-1041,Carol,Brown,Female,2019-12-06,Software Engineering,Software Engineer – Full-Stack,L2,Engineering – Consumer Product,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,99000,USD,2025-01-01
+EMP-1095,Amy,Martin,Female,2022-06-07,Software Engineering,QA Engineer / SDET,L2,Engineering – Data Systems,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,141500,USD,2025-01-01
+EMP-1436,Brenda,Green,Female,2023-03-18,UX / Design,Product Designer,L4,Design & UX,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,180500,USD,2025-01-01
+EMP-1645,Nicholas,Ramos,Male,2017-07-31,Sales & Account Management,Customer Success Manager,L3,Customer Success,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,105000,USD,2025-01-01
+EMP-1444,Betty,Nguyen,Female,2024-08-28,UX / Design,UX Researcher,L3,Design & UX,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,104500,USD,2025-01-01
+EMP-1190,Pamela,Garcia,Female,2017-07-06,Software Engineering,Software Engineer – Mobile,L4,Engineering – Data Systems,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,170000,USD,2025-01-01
+EMP-1628,Steven,Thompson,Male,2017-11-16,Sales & Account Management,Account Manager,L4,Customer Success,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,148000,USD,2025-01-01
+EMP-1377,Eric,Howard,Male,2017-06-03,Clinical Informatics / Health IT,Interoperability Analyst,L5,Clinical Informatics,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,237000,USD,2025-01-01
+EMP-1432,Laura,Reyes,Female,2022-08-28,Clinical Informatics / Health IT,Interoperability Analyst,L4,Clinical Informatics,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,163500,USD,2025-01-01
+EMP-1092,Cynthia,Thomas,Female,2018-09-23,Software Engineering,Software Engineer – Frontend,L1,Engineering – Mobile,Denver CO,"Denver-Aurora-Lakewood, CO",19740,87000,USD,2025-01-01
+EMP-1433,Sharon,Ramos,Female,2022-09-14,Clinical Informatics / Health IT,Interoperability Analyst,L3,Clinical Informatics,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,123000,USD,2025-01-01
+EMP-1614,Brian,Jackson,Male,2018-02-07,IT / Systems Administration,Systems Administrator,L3,IT Operations,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,112000,USD,2025-01-01
+EMP-1795,Kenneth,Long,Male,2021-10-28,Corporate,HR Specialist,L1,Legal & Compliance,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,70500,USD,2025-01-01
+EMP-1274,Rebecca,Mendoza,Female,2019-09-19,Data & Analytics,Senior Data Scientist,L4,Business Intelligence,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,161000,USD,2025-01-01
+EMP-1487,Dorothy,Harris,Female,2017-01-30,DevOps / Platform / SRE,Cloud Infrastructure Engineer,L2,Platform Engineering,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,89000,USD,2025-01-01
+EMP-1726,Kathleen,Hughes,Female,2021-03-09,Corporate,FP&A Analyst,L3,People Operations,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,112000,USD,2025-01-01
+EMP-1456,Barbara,Ross,Female,2017-07-06,UX / Design,Senior UX Designer,L3,Design & UX,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,110500,USD,2025-01-01
+EMP-1501,Sandra,Mendoza,Female,2020-07-17,DevOps / Platform / SRE,Platform Engineer,L3,Infrastructure & SRE,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,171000,USD,2025-01-01
+EMP-1204,Kathleen,King,Female,2023-06-28,Data & Analytics,Data Scientist,L4,Data Science,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,206500,USD,2025-01-01
+EMP-1524,Cynthia,Brooks,Female,2023-04-30,DevOps / Platform / SRE,Platform Engineer,L3,Infrastructure & SRE,Denver CO,"Denver-Aurora-Lakewood, CO",19740,144500,USD,2025-01-01
+EMP-1376,Richard,Wilson,Male,2018-02-18,Clinical Informatics / Health IT,Health IT Specialist,L2,Health IT,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,124000,USD,2025-01-01
+EMP-1098,Susan,Edwards,Female,2022-02-15,Software Engineering,Software Engineer – Frontend,L1,Engineering – Core Platform,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,94000,USD,2025-01-01
+EMP-1681,Anna,Rogers,Female,2024-01-10,Sales & Account Management,Account Executive,L4,Customer Success,Denver CO,"Denver-Aurora-Lakewood, CO",19740,145500,USD,2025-01-01
+EMP-1367,Joshua,Hernandez,Male,2018-04-19,Clinical Informatics / Health IT,EHR Implementation Analyst,L2,Health IT,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,128500,USD,2025-01-01
+EMP-1134,Thomas,Myers,Male,2017-05-06,Software Engineering,Software Engineer – Backend,L4,Engineering – Core Platform,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,180000,USD,2025-01-01
+EMP-1617,Jacob,Gray,Male,2018-09-04,IT / Systems Administration,Systems Administrator,L2,IT Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,89000,USD,2025-01-01
+EMP-1701,John,Mitchell,Male,2022-06-15,Sales & Account Management,Account Executive,L2,Customer Success,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,85500,USD,2025-01-01
+EMP-1317,Angela,Torres,Female,2022-08-15,Product Management,Product Manager,L2,Product – Consumer,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,138000,USD,2025-01-01
+EMP-1442,Linda,Carter,Female,2024-09-07,UX / Design,Product Designer,L4,Design & UX,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,134000,USD,2025-01-01
+EMP-1502,Ashley,Torres,Female,2024-07-22,DevOps / Platform / SRE,Cloud Infrastructure Engineer,L3,Infrastructure & SRE,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,160000,USD,2025-01-01
+EMP-1305,Kenneth,Lopez,Male,2019-10-23,Product Management,Director of Product,L6,Product – Platform,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,323000,USD,2025-01-01
+EMP-1123,John,Morris,Male,2021-01-22,Software Engineering,Software Engineer – Full-Stack,L1,Engineering – Core Platform,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,101000,USD,2025-01-01
+EMP-1768,Anthony,Brown,Male,2020-06-25,Corporate,HRBP,L4,Operations,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,143500,USD,2025-01-01
+EMP-1669,Michael,Sanders,Male,2019-09-04,Sales & Account Management,Sales Engineer,L3,Sales – Mid-Market,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,168500,USD,2025-01-01
+EMP-1662,Jacob,Castillo,Male,2017-05-23,Sales & Account Management,Account Manager,L3,Sales – Enterprise,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,107000,USD,2025-01-01
+EMP-1777,Jessica,Cooper,Female,2021-12-18,Corporate,HRBP,L3,Operations,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,99000,USD,2025-01-01
+EMP-1412,Kathleen,Nelson,Female,2017-02-22,Clinical Informatics / Health IT,Health IT Specialist,L2,Implementation Services,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,117500,USD,2025-01-01
+EMP-1397,Rebecca,Nelson,Female,2023-07-27,Clinical Informatics / Health IT,EHR Implementation Analyst,L1,Health IT,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,95000,USD,2025-01-01
+EMP-1166,Barbara,Anderson,Female,2022-08-10,Software Engineering,Software Engineer – Backend,L2,Engineering – Core Platform,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,113500,USD,2025-01-01
+EMP-1213,David,Gray,Male,2019-07-14,Data & Analytics,Data Scientist,L2,Data Science,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,112500,USD,2025-01-01
+EMP-1021,George,Wilson,Male,2019-02-19,Software Engineering,Software Engineer – Mobile,L5,Engineering – Mobile,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,285000,USD,2025-01-01
+EMP-1091,Steven,Alvarez,Male,2023-03-07,Software Engineering,QA Engineer / SDET,L2,Engineering – Core Platform,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,100000,USD,2025-01-01
+EMP-1735,Sharon,Garcia,Female,2017-05-15,Corporate,Accountant,L3,People Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,115000,USD,2025-01-01
+EMP-1245,Andrew,Campbell,Male,2022-07-30,Data & Analytics,Analytics Engineer,L3,Business Intelligence,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,169000,USD,2025-01-01
+EMP-1182,Drew,Hall,Prefer not to say,2023-03-03,Software Engineering,Principal Software Engineer,L6,Engineering – Data Systems,Denver CO,"Denver-Aurora-Lakewood, CO",19740,319500,USD,2025-01-01
+EMP-1261,Paul,Martinez,Male,2023-11-20,Data & Analytics,Data Analyst,L3,Data Science,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,164500,USD,2025-01-01
+EMP-1408,Michael,Miller,Male,2021-09-04,Clinical Informatics / Health IT,EHR Implementation Analyst,L2,Health IT,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,133000,USD,2025-01-01
+EMP-1094,Barbara,Scott,Female,2020-10-24,Software Engineering,Software Engineer – Full-Stack,L4,Engineering – Data Systems,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,222500,USD,2025-01-01
+EMP-1390,Dakota,Mitchell,Prefer not to say,2023-08-30,Clinical Informatics / Health IT,Health IT Specialist,L2,Implementation Services,Denver CO,"Denver-Aurora-Lakewood, CO",19740,104000,USD,2025-01-01
+EMP-1616,Donna,Williams,Female,2020-07-02,IT / Systems Administration,Systems Administrator,L4,IT Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,162500,USD,2025-01-01
+EMP-1560,Ryan,Diaz,Male,2018-05-09,DevOps / Platform / SRE,DevOps Engineer,L2,Platform Engineering,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,128000,USD,2025-01-01
+EMP-1072,Ronald,Morris,Male,2020-11-09,Software Engineering,Software Engineer – Backend,L2,Engineering – Mobile,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,108000,USD,2025-01-01
+EMP-1056,Pamela,Carter,Female,2020-05-08,Software Engineering,QA Engineer / SDET,L3,Engineering – Mobile,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,129000,USD,2025-01-01
+EMP-1330,Jeffrey,Brown,Male,2020-11-19,Product Management,Senior Product Manager,L4,Product – Clinical,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,182500,USD,2025-01-01
+EMP-1289,Sage,Perez,Prefer not to say,2018-07-29,Data & Analytics,Data Engineer,L3,Data & Analytics,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,132500,USD,2025-01-01
+EMP-1659,Casey,Jimenez,Non-binary,2024-06-27,Sales & Account Management,Account Manager,L4,Sales – Mid-Market,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,142500,USD,2025-01-01
+EMP-1049,Pamela,Harris,Female,2021-06-25,Software Engineering,Software Engineer – Mobile,L4,Engineering – Consumer Product,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,215000,USD,2025-01-01
+EMP-1216,Reese,Thompson,Non-binary,2018-12-22,Data & Analytics,Data Engineer,L3,Data & Analytics,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,131000,USD,2025-01-01
+EMP-1132,Kenneth,Howard,Male,2021-10-24,Software Engineering,Software Engineer – Full-Stack,L1,Engineering – Core Platform,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,87500,USD,2025-01-01
+EMP-1582,Paul,Cox,Male,2024-09-16,IT / Systems Administration,IT Support Specialist,L2,IT Operations,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,69000,USD,2025-01-01
+EMP-1749,Michelle,Martin,Female,2023-12-28,Corporate,Financial Analyst,L1,People Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,69500,USD,2025-01-01
+EMP-1332,Thomas,Castillo,Male,2017-06-29,Product Management,Product Manager,L2,Product – Platform,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,124000,USD,2025-01-01
+EMP-1463,Carol,Rivera,Female,2024-05-08,UX / Design,Product Designer,L2,Design & UX,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,101500,USD,2025-01-01
+EMP-1637,John,Wood,Male,2022-06-17,Sales & Account Management,Account Executive,L4,Customer Success,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,127000,USD,2025-01-01
+EMP-1671,Shirley,Reyes,Female,2023-01-07,Sales & Account Management,Customer Success Manager,L2,Sales – Enterprise,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,128000,USD,2025-01-01
+EMP-1044,Brian,Bennett,Male,2020-05-15,Software Engineering,Software Engineer – Full-Stack,L1,Engineering – Data Systems,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,85000,USD,2025-01-01
+EMP-1337,Jennifer,Ramirez,Female,2020-09-04,Product Management,Product Manager,L2,Product – Platform,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,143500,USD,2025-01-01
+EMP-1005,Deborah,Scott,Female,2018-10-29,Software Engineering,Software Engineer – Mobile,L5,Engineering – Data Systems,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,241000,USD,2025-01-01
+EMP-1673,Donna,Gonzalez,Female,2018-12-01,Sales & Account Management,Account Executive,L3,Customer Success,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,147500,USD,2025-01-01
+EMP-1608,Gary,Cooper,Male,2022-03-10,IT / Systems Administration,IT Analyst,L3,IT Operations,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,101000,USD,2025-01-01
+EMP-1275,Nicholas,Ramos,Male,2022-09-07,Data & Analytics,Data Engineer,L4,Data Science,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,193500,USD,2025-01-01
+EMP-1643,Carol,Cooper,Female,2022-04-05,Sales & Account Management,Customer Success Manager,L3,Sales – Mid-Market,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,117000,USD,2025-01-01
+EMP-1464,Jacob,Nelson,Male,2020-06-06,UX / Design,UX Designer,L2,Design & UX,Denver CO,"Denver-Aurora-Lakewood, CO",19740,89500,USD,2025-01-01
+EMP-1491,Daniel,Gonzalez,Male,2021-06-29,DevOps / Platform / SRE,Cloud Infrastructure Engineer,L3,Infrastructure & SRE,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,124000,USD,2025-01-01
+EMP-1675,Joseph,Adams,Male,2019-05-24,Sales & Account Management,Customer Success Manager,L4,Sales – Enterprise,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,153500,USD,2025-01-01
+EMP-1724,Nicholas,Thomas,Male,2020-03-24,Corporate,HRBP,L4,Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,162500,USD,2025-01-01
+EMP-1471,Pamela,Bennett,Female,2018-08-22,UX / Design,UX Researcher,L2,Design & UX,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,119000,USD,2025-01-01
+EMP-1083,Karen,Martinez,Female,2020-06-13,Software Engineering,Software Engineer – Frontend,L2,Engineering – Data Systems,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,96500,USD,2025-01-01
+EMP-1029,John,Johnson,Male,2023-04-26,Software Engineering,Software Engineer – Full-Stack,L3,Engineering – Core Platform,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,180500,USD,2025-01-01
+EMP-1157,Lisa,Sanders,Female,2021-08-10,Software Engineering,Software Engineer – Frontend,L1,Engineering – Data Systems,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,106000,USD,2025-01-01
+EMP-1331,Timothy,Myers,Male,2018-03-02,Product Management,Senior Product Manager,L5,Product – Platform,Denver CO,"Denver-Aurora-Lakewood, CO",19740,235500,USD,2025-01-01
+EMP-1108,Edward,Lewis,Male,2023-12-19,Software Engineering,QA Engineer / SDET,L4,Engineering – Data Systems,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,206500,USD,2025-01-01
+EMP-1604,Betty,Smith,Female,2022-03-20,IT / Systems Administration,Network Administrator,L2,IT Operations,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,67000,USD,2025-01-01
+EMP-1382,Jason,Moore,Male,2022-11-18,Clinical Informatics / Health IT,EHR Implementation Analyst,L2,Implementation Services,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,135500,USD,2025-01-01
+EMP-1403,Shirley,Harris,Female,2017-01-17,Clinical Informatics / Health IT,EHR Implementation Analyst,L3,Implementation Services,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,125000,USD,2025-01-01
+EMP-1124,Shirley,Hill,Female,2017-05-08,Software Engineering,Software Engineer – Frontend,L1,Engineering – Core Platform,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,79500,USD,2025-01-01
+EMP-1696,Robert,Nguyen,Male,2020-01-11,Sales & Account Management,Sales Engineer,L3,Customer Success,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,126500,USD,2025-01-01
+EMP-1697,Elizabeth,Watson,Female,2017-08-13,Sales & Account Management,Sales Engineer,L4,Customer Success,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,178000,USD,2025-01-01
+EMP-1291,Jacob,Murphy,Male,2023-05-05,Data & Analytics,Data Engineer,L3,Data & Analytics,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,124500,USD,2025-01-01
+EMP-1026,Daniel,Davis,Male,2017-11-25,Software Engineering,Software Engineer – Mobile,L2,Engineering – Consumer Product,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,118000,USD,2025-01-01
+EMP-1336,Edward,Jimenez,Male,2020-06-16,Product Management,Product Manager,L2,Product – Consumer,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,122000,USD,2025-01-01
+EMP-1096,Dakota,Harris,Non-binary,2019-09-06,Software Engineering,Software Engineer – Full-Stack,L3,Engineering – Mobile,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,193000,USD,2025-01-01
+EMP-1693,Jeffrey,Ramirez,Male,2020-04-26,Sales & Account Management,Account Manager,L2,Sales – Enterprise,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,81500,USD,2025-01-01
+EMP-1510,Mark,Diaz,Male,2021-03-05,DevOps / Platform / SRE,Platform Engineer,L4,Infrastructure & SRE,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,221500,USD,2025-01-01
+EMP-1252,Rebecca,Johnson,Female,2020-01-31,Data & Analytics,BI Analyst,L2,Data Science,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,122500,USD,2025-01-01
+EMP-1078,Kevin,Hernandez,Male,2018-05-01,Software Engineering,Software Engineer – Backend,L3,Engineering – Mobile,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,205000,USD,2025-01-01
+EMP-1426,William,Ward,Male,2024-02-25,Clinical Informatics / Health IT,Clinical Informatics Analyst,L2,Health IT,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,107000,USD,2025-01-01
+EMP-1184,Patricia,Campbell,Female,2021-02-20,Software Engineering,Software Engineer – Backend,L1,Engineering – Mobile,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,107500,USD,2025-01-01
+EMP-1584,James,Wright,Male,2019-07-01,IT / Systems Administration,Network Administrator,L2,IT Operations,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,108000,USD,2025-01-01
+EMP-1785,Sandra,Williams,Female,2023-04-07,Corporate,HRBP,L5,Finance,Denver CO,"Denver-Aurora-Lakewood, CO",19740,180500,USD,2025-01-01
+EMP-1538,Steven,Johnson,Male,2023-07-09,DevOps / Platform / SRE,DevOps Engineer,L4,Infrastructure & SRE,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,187500,USD,2025-01-01
+EMP-1004,Melissa,Howard,Female,2024-06-01,Software Engineering,Software Engineer – Frontend,L4,Engineering – Consumer Product,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,192500,USD,2025-01-01
+EMP-1597,Thomas,Davis,Male,2017-05-31,IT / Systems Administration,Network Administrator,L3,IT Operations,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,109000,USD,2025-01-01
+EMP-1217,Dakota,Nguyen,Non-binary,2017-02-07,Data & Analytics,Principal Data Scientist,L6,Business Intelligence,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,389000,USD,2025-01-01
+EMP-1599,Brenda,Thompson,Female,2023-06-30,IT / Systems Administration,Network Administrator,L3,IT Operations,Austin TX,"Austin-Round Rock-Georgetown, TX",12420,104000,USD,2025-01-01
+EMP-1679,Steven,Thompson,Male,2017-06-04,Sales & Account Management,Sales Development Rep,L1,Customer Success,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,89000,USD,2025-01-01
+EMP-1576,David,Brooks,Male,2021-05-05,IT / Systems Administration,Network Administrator,L2,IT Operations,Denver CO,"Denver-Aurora-Lakewood, CO",19740,74000,USD,2025-01-01
+EMP-1279,Richard,Nguyen,Male,2017-12-18,Data & Analytics,Data Engineer,L3,Data & Analytics,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,166500,USD,2025-01-01
+EMP-1520,Dorothy,Long,Female,2017-11-24,DevOps / Platform / SRE,Platform Engineer,L3,Platform Engineering,San Francisco CA,"San Francisco-Oakland-Hayward, CA",41860,179500,USD,2025-01-01
+EMP-1767,Margaret,Turner,Female,2020-03-21,Corporate,Paralegal,L2,Finance,Washington DC,"Washington-Arlington-Alexandria, DC-VA-MD-WV",47900,79000,USD,2025-01-01
+EMP-1172,Anthony,Torres,Male,2017-07-15,Software Engineering,Software Engineer – Frontend,L4,Engineering – Data Systems,New York NY,"New York-Newark-Jersey City, NY-NJ-PA",35620,219000,USD,2025-01-01

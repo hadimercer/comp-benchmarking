@@ -1,0 +1,151 @@
+grade_code,job_family,role_title,job_level,band_minimum,band_midpoint,band_maximum,salary_currency,geo_scope,below_market_flag,effective_date,last_reviewed_date
+GRD-001,Software Engineering,Software Engineer – Backend,L1,72000,84000,95000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-002,Software Engineering,Software Engineer – Backend,L2,95000,111000,128000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-003,Software Engineering,Software Engineer – Backend,L3,122000,142000,162000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-004,Software Engineering,Software Engineer – Backend,L4,157000,183000,211000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-005,Software Engineering,Software Engineer – Backend,L5,197000,232000,273000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-006,Software Engineering,Software Engineer – Full-Stack,L1,72000,84000,95000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-007,Software Engineering,Software Engineer – Full-Stack,L2,95000,111000,128000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-008,Software Engineering,Software Engineer – Full-Stack,L3,122000,142000,162000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-009,Software Engineering,Software Engineer – Full-Stack,L4,157000,183000,211000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-010,Software Engineering,Software Engineer – Frontend,L1,72000,84000,95000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-011,Software Engineering,Software Engineer – Frontend,L2,95000,111000,128000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-012,Software Engineering,Software Engineer – Frontend,L3,122000,142000,162000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-013,Software Engineering,Software Engineer – Frontend,L4,157000,183000,211000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-014,Software Engineering,Software Engineer – Mobile,L2,95000,111000,128000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-015,Software Engineering,Software Engineer – Mobile,L3,122000,142000,162000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-016,Software Engineering,Software Engineer – Mobile,L4,157000,183000,211000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-017,Software Engineering,Software Engineer – Mobile,L5,197000,232000,273000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-018,Software Engineering,QA Engineer / SDET,L1,72000,84000,95000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-019,Software Engineering,QA Engineer / SDET,L2,95000,111000,128000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-020,Software Engineering,QA Engineer / SDET,L3,122000,142000,162000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-021,Software Engineering,QA Engineer / SDET,L4,157000,183000,211000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-022,Software Engineering,Staff Software Engineer,L5,197000,232000,273000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-023,Software Engineering,Staff Software Engineer,L6,249000,299000,354000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-024,Software Engineering,Principal Software Engineer,L6,249000,299000,354000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-025,Data & Analytics,Data Analyst,L1,70000,81000,93000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-026,Data & Analytics,Data Analyst,L2,93000,108000,124000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-027,Data & Analytics,Data Analyst,L3,119000,138000,158000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-028,Data & Analytics,Data Scientist,L2,93000,108000,124000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-029,Data & Analytics,Data Scientist,L3,119000,138000,158000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-030,Data & Analytics,Data Scientist,L4,153000,179000,206000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-031,Data & Analytics,Data Scientist,L5,192000,226000,266000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-032,Data & Analytics,Senior Data Scientist,L4,153000,179000,206000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-033,Data & Analytics,Senior Data Scientist,L5,192000,226000,266000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-034,Data & Analytics,Data Engineer,L2,93000,108000,124000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-035,Data & Analytics,Data Engineer,L3,119000,138000,158000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-036,Data & Analytics,Data Engineer,L4,153000,179000,206000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-037,Data & Analytics,Data Engineer,L5,192000,226000,266000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-038,Data & Analytics,Analytics Engineer,L3,119000,138000,158000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-039,Data & Analytics,Analytics Engineer,L4,153000,179000,206000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-040,Data & Analytics,Analytics Engineer,L5,192000,226000,266000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-041,Data & Analytics,BI Analyst,L1,70000,81000,93000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-042,Data & Analytics,BI Analyst,L2,93000,108000,124000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-043,Data & Analytics,BI Analyst,L3,119000,138000,158000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-044,Data & Analytics,Principal Data Scientist,L6,243000,292000,345000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-045,Product Management,Product Manager,L2,90000,106000,121000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-046,Product Management,Product Manager,L3,116000,134000,154000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-047,Product Management,Product Manager,L4,148000,174000,200000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-048,Product Management,Senior Product Manager,L4,148000,174000,200000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-049,Product Management,Senior Product Manager,L5,187000,220000,259000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-050,Product Management,Principal Product Manager,L5,187000,220000,259000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-051,Product Management,Principal Product Manager,L6,237000,284000,336000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-052,Product Management,Director of Product,L6,237000,284000,336000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-053,Clinical Informatics / Health IT,Clinical Informatics Analyst,L1,65000,76000,86000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-054,Clinical Informatics / Health IT,Clinical Informatics Analyst,L2,86000,101000,116000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-055,Clinical Informatics / Health IT,Clinical Informatics Analyst,L3,110000,128000,147000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-056,Clinical Informatics / Health IT,Senior Clinical Informatics Analyst,L3,110000,128000,147000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-057,Clinical Informatics / Health IT,Senior Clinical Informatics Analyst,L4,142000,166000,191000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-058,Clinical Informatics / Health IT,Health IT Specialist,L2,86000,101000,116000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-059,Clinical Informatics / Health IT,Health IT Specialist,L3,110000,128000,147000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-060,Clinical Informatics / Health IT,Health IT Specialist,L4,142000,166000,191000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-061,Clinical Informatics / Health IT,EHR Implementation Analyst,L1,65000,76000,86000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-062,Clinical Informatics / Health IT,EHR Implementation Analyst,L2,86000,101000,116000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-063,Clinical Informatics / Health IT,EHR Implementation Analyst,L3,110000,128000,147000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-064,Clinical Informatics / Health IT,Interoperability Analyst,L3,110000,128000,147000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-065,Clinical Informatics / Health IT,Interoperability Analyst,L4,142000,166000,191000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-066,Clinical Informatics / Health IT,Interoperability Analyst,L5,178000,210000,247000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-067,Clinical Informatics / Health IT,"Director, Clinical Informatics",L6,226000,271000,320000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-068,UX / Design,UX Designer,L1,55000,65000,75000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-069,UX / Design,UX Designer,L2,72000,86000,100000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-070,UX / Design,UX Designer,L3,92000,110000,127000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-071,UX / Design,Senior UX Designer,L3,92000,110000,127000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-072,UX / Design,Senior UX Designer,L4,119000,142000,166000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-073,UX / Design,Product Designer,L2,72000,86000,100000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-074,UX / Design,Product Designer,L3,92000,110000,127000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-075,UX / Design,Product Designer,L4,119000,142000,166000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-076,UX / Design,UX Researcher,L2,72000,86000,100000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-077,UX / Design,UX Researcher,L3,92000,110000,127000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-078,UX / Design,UX Researcher,L4,119000,142000,166000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-079,UX / Design,Principal UX Designer,L5,150000,180000,214000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-080,UX / Design,Principal UX Designer,L6,189000,232000,278000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-081,DevOps / Platform / SRE,DevOps Engineer,L2,91000,107000,122000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-082,DevOps / Platform / SRE,DevOps Engineer,L3,117000,135000,155000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-083,DevOps / Platform / SRE,DevOps Engineer,L4,150000,175000,202000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-084,DevOps / Platform / SRE,Senior DevOps Engineer,L3,117000,135000,155000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-085,DevOps / Platform / SRE,Senior DevOps Engineer,L4,150000,175000,202000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-086,DevOps / Platform / SRE,Senior DevOps Engineer,L5,189000,222000,261000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-087,DevOps / Platform / SRE,Platform Engineer,L3,117000,135000,155000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-088,DevOps / Platform / SRE,Platform Engineer,L4,150000,175000,202000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-089,DevOps / Platform / SRE,Platform Engineer,L5,189000,222000,261000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-090,DevOps / Platform / SRE,Site Reliability Engineer,L3,117000,135000,155000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-091,DevOps / Platform / SRE,Site Reliability Engineer,L4,150000,175000,202000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-092,DevOps / Platform / SRE,Site Reliability Engineer,L5,189000,222000,261000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-093,DevOps / Platform / SRE,Staff SRE,L5,189000,222000,261000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-094,DevOps / Platform / SRE,Staff SRE,L6,239000,286000,339000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-095,DevOps / Platform / SRE,Cloud Infrastructure Engineer,L2,91000,107000,122000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-096,DevOps / Platform / SRE,Cloud Infrastructure Engineer,L3,117000,135000,155000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-097,DevOps / Platform / SRE,Cloud Infrastructure Engineer,L4,150000,175000,202000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-098,IT / Systems Administration,IT Support Specialist,L1,48000,57000,66000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-099,IT / Systems Administration,IT Support Specialist,L2,64000,76000,88000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-100,IT / Systems Administration,Systems Administrator,L2,64000,76000,88000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-101,IT / Systems Administration,Systems Administrator,L3,81000,97000,112000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-102,IT / Systems Administration,Systems Administrator,L4,105000,125000,146000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-103,IT / Systems Administration,Network Administrator,L2,64000,76000,88000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-104,IT / Systems Administration,Network Administrator,L3,81000,97000,112000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-105,IT / Systems Administration,Network Administrator,L4,105000,125000,146000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-106,IT / Systems Administration,IT Analyst,L2,64000,76000,88000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-107,IT / Systems Administration,IT Analyst,L3,81000,97000,112000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-108,IT / Systems Administration,Senior Systems Administrator,L4,105000,125000,146000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-109,IT / Systems Administration,Senior Systems Administrator,L5,132000,158000,188000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-110,Sales & Account Management,Sales Development Rep,L1,59000,68000,78000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-111,Sales & Account Management,Sales Development Rep,L2,78000,91000,104000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-112,Sales & Account Management,Account Executive,L2,78000,91000,104000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-113,Sales & Account Management,Account Executive,L3,100000,116000,133000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-114,Sales & Account Management,Account Executive,L4,128000,150000,173000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-115,Sales & Account Management,Senior Account Executive,L4,128000,150000,173000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-116,Sales & Account Management,Senior Account Executive,L5,162000,190000,223000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-117,Sales & Account Management,Account Manager,L2,78000,91000,104000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-118,Sales & Account Management,Account Manager,L3,100000,116000,133000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-119,Sales & Account Management,Account Manager,L4,128000,150000,173000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-120,Sales & Account Management,Customer Success Manager,L2,78000,91000,104000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-121,Sales & Account Management,Customer Success Manager,L3,100000,116000,133000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-122,Sales & Account Management,Customer Success Manager,L4,128000,150000,173000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-123,Sales & Account Management,Sales Engineer,L3,100000,116000,133000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-124,Sales & Account Management,Sales Engineer,L4,128000,150000,173000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-125,Sales & Account Management,Sales Engineer,L5,162000,190000,223000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-126,Sales & Account Management,Regional Sales Director,L5,162000,190000,223000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-127,Sales & Account Management,Regional Sales Director,L6,204000,245000,290000,USD,National (pre-geo-differential),NO,2025-01-01,2025-01-01
+GRD-128,Corporate,HR Specialist,L1,47000,56000,65000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-129,Corporate,HR Specialist,L2,63000,75000,87000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-130,Corporate,HR Specialist,L3,80000,96000,111000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-131,Corporate,HRBP,L3,80000,96000,111000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-132,Corporate,HRBP,L4,103000,124000,144000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-133,Corporate,HRBP,L5,130000,157000,186000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-134,Corporate,HR Manager,L4,103000,124000,144000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-135,Corporate,HR Manager,L5,130000,157000,186000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-136,Corporate,Financial Analyst,L1,47000,56000,65000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-137,Corporate,Financial Analyst,L2,63000,75000,87000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-138,Corporate,Financial Analyst,L3,80000,96000,111000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-139,Corporate,FP&A Analyst,L3,80000,96000,111000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-140,Corporate,FP&A Analyst,L4,103000,124000,144000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-141,Corporate,Accountant,L2,63000,75000,87000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-142,Corporate,Accountant,L3,80000,96000,111000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-143,Corporate,General Operations Manager,L4,103000,124000,144000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-144,Corporate,General Operations Manager,L5,130000,157000,186000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-145,Corporate,General Operations Manager,L6,165000,202000,241000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-146,Corporate,Paralegal,L2,63000,75000,87000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-147,Corporate,Paralegal,L3,80000,96000,111000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-148,Corporate,Corporate Counsel,L4,103000,124000,144000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-149,Corporate,Corporate Counsel,L5,130000,157000,186000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
+GRD-150,Corporate,Corporate Counsel,L6,165000,202000,241000,USD,National (pre-geo-differential),YES,2025-01-01,2025-01-01
