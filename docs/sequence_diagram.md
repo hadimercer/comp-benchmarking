@@ -2,7 +2,7 @@
 
 **Document ID:** FRD-COMP-001 | FR-18  
 **Project:** TechNova Compensation & Market Benchmarking Dashboard  
-**Prepared by:** Business Analyst — BA Portfolio Project 2  
+**Prepared by:** Hadi Mercer — BA Portfolio Project 2  
 **Date:** February 2026  
 **Traces to:** OBJ-02, OBJ-05
 
