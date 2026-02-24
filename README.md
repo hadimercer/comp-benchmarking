@@ -27,7 +27,7 @@ A full-stack data pipeline and interactive dashboard that pulls real wage data f
 ![Pay Equity](docs/screenshots/03_pay_equity.png)
 
 ### Salary Distribution — Box Plots by Level
-![Salary Distribution](docs/screenshots/04_salary_distribution.png)
+![Salary Distribution](docs/screenshots/04_salary_ditribution.png)
 
 ### Geographic Pay Differentials — 5-City Comparison
 ![Geo Differentials](docs/screenshots/05_geo_differentials.png)
