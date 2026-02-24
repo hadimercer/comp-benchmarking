@@ -2,7 +2,7 @@
 
 **Portfolio Project S2 | Hadi Mercer | BA Portfolio 2026**
 
-A full-stack data pipeline and interactive dashboard that pulls real wage data from the Bureau of Labor Statistics, stores it alongside internal job grade data in PostgreSQL, and surfaces compensation benchmarking gaps and pay equity flags through a live Streamlit web application.
+A full-stack data pipeline and interactive dashboard that pulls real wage data from the Bureau of Labor Statistics, stores it alongside internal job grade data in PostgreSQL, and surfaces compensation benchmarking gaps, pay equity flags, and workforce analytics through a live 8-page Streamlit web application.
 
 > TechNova is a realistic fictional healthcare technology company created for portfolio demonstration. All employee data, salary figures, and organizational details are synthetic.
 
@@ -10,8 +10,33 @@ A full-stack data pipeline and interactive dashboard that pulls real wage data f
 
 ## Live Demo
 
-🔗 **Dashboard**: [Coming — deploying to Streamlit Community Cloud]
-📁 **Portfolio Hub**: [hadimercer.github.io](https://hadimercer.github.io)
+🔗 **Dashboard:** [comp-benchmarking-hadimercer-ps2.streamlit.app](https://comp-benchmarking-hadimercer-ps2.streamlit.app/)  
+📁 **Portfolio Hub:** [hadimercer.github.io](https://hadimercer.github.io)
+
+---
+
+## Screenshots
+
+### Benchmarking View — Internal vs BLS Market Range
+![Benchmarking View](docs/screenshots/01_benchmarking_view.png)
+
+### Market Position Flags — Below & Above Market
+![Market Flags](docs/screenshots/02_market_flags.png)
+
+### Pay Equity Module — Gender Gap Analysis
+![Pay Equity](docs/screenshots/03_pay_equity.png)
+
+### Salary Distribution — Box Plots by Level
+![Salary Distribution](docs/screenshots/04_salary_distribution.png)
+
+### Geographic Pay Differentials — 5-City Comparison
+![Geo Differentials](docs/screenshots/05_geo_differentials.png)
+
+### Compa-Ratio Distribution
+![Compa Ratio](docs/screenshots/06_compa_ratio.png)
+
+### Level Progression — Band Staircase vs BLS Median
+![Level Progression](docs/screenshots/07_level_progression.png)
 
 ---
 
@@ -19,14 +44,15 @@ A full-stack data pipeline and interactive dashboard that pulls real wage data f
 
 | Capability | Evidence |
 |---|---|
-| Business Analysis | BABOK v3-aligned FRD with MoSCoW prioritization, stakeholder map, traceability matrix |
+| Business Analysis | BABOK v3-aligned FRD, stakeholder map, MoSCoW prioritization, traceability matrix |
 | Data Engineering | Python pipeline: API ingestion, CSV validation, PostgreSQL loading, audit logging |
-| API Integration | BLS OEWS REST API — 600 series/run, batched requests, error handling |
-| Database Design | PostgreSQL schema with 8 tables, FK constraints, indexes, unique constraints |
+| API Integration | BLS OEWS REST API — 600 series/run, batched requests, registered key, error handling |
+| Database Design | PostgreSQL schema: 8 tables, FK constraints, indexes, unique constraints |
 | Data Modeling | Job-to-SOC crosswalk with match quality metadata across 38 role mappings |
-| Visualization | Streamlit dashboard: benchmarking view, below-market flags, pay equity module |
-| Documentation | OpenAPI/Swagger spec, UML sequence diagram, data dictionary |
-| Security | Environment variable credential management, no hardcoded secrets |
+| Visualization | 8-page Streamlit dashboard: benchmarking, flags, equity, distributions, geo differentials |
+| HR Analytics | Compa-ratio analysis, level progression modeling, geographic pay differentials |
+| Documentation | OpenAPI/Swagger spec (FR-17), UML sequence diagram (FR-18), data dictionary |
+| Security | Environment variable credential management, no hardcoded secrets (NFR-02c) |
 
 ---
 
@@ -37,38 +63,44 @@ BLS Public API (OEWS)
         │
         ▼
 pipeline/bls_pipeline.py
-  ├── Reads SOC codes from DB
-  ├── Builds 600 series IDs (5 MSAs × 20 SOC codes × 6 data types)
-  ├── Batches API calls (50/request, 0.5s delay)
-  └── Loads → bls_wage_data table
-        │
+  ├── Reads SOC codes from job_soc_crosswalk
+  ├── Reads MSA codes from employees table
+  ├── Builds series IDs (5 MSAs × 20 SOC codes × 6 data types)
+  ├── Batches API calls (50/request, registered key)
+  ├── Validates + transforms response
+  └── Upserts → bls_wage_data + pipeline_run_log
+
 data/ CSVs (employees + job grades)
         │
         ▼
 pipeline/csv_ingestion.py
-  ├── Schema validation (rejects entire file on failure)
-  ├── Type coercion + null handling
-  └── Upserts → employees + internal_job_grades tables
-        │
+  ├── Schema validation (rejects entire file on failure — NFR-01a)
+  └── Upserts → employees + internal_job_grades + pipeline_run_log
+
 pipeline/seed_reference_data.py
-  └── Seeds → soc_code_reference + job_soc_crosswalk tables
+  └── Seeds → soc_code_reference + job_soc_crosswalk
         │
         ▼
 PostgreSQL (Supabase)
-  ├── employees (800 rows)
-  ├── internal_job_grades (150 rows)
-  ├── bls_wage_data (100 rows, 2024 OEWS)
-  ├── soc_code_reference (20 SOC codes)
-  ├── job_soc_crosswalk (38 role mappings)
-  ├── pipeline_run_log (audit trail)
-  ├── crosswalk_change_log (controlled artifact history)
-  └── job_families (lookup)
+  ├── employees             (800 rows — synthetic)
+  ├── internal_job_grades   (150 rows — salary bands)
+  ├── bls_wage_data         (market wage data by SOC + MSA + year)
+  ├── soc_code_reference    (20 SOC codes)
+  ├── job_soc_crosswalk     (38 role mappings with match quality)
+  ├── pipeline_run_log      (audit trail — every run logged)
+  ├── crosswalk_change_log  (controlled artifact history — NFR-01c)
+  └── job_families          (lookup)
         │
         ▼
-Streamlit Dashboard (app.py)
-  ├── Page 1: Benchmarking View (filter → market range)
-  ├── Page 2: Below-Market Flags
-  └── Page 3: Pay Equity Module (gender gaps)
+Streamlit Dashboard (app.py) — 8 pages
+  ├── Page 1: Benchmarking View
+  ├── Page 2: Market Position Flags
+  ├── Page 3: Pay Equity Module
+  ├── Page 4: Salary Distribution
+  ├── Page 5: Geographic Pay Differentials
+  ├── Page 6: Compa-Ratio Analysis
+  ├── Page 7: Level Progression View
+  └── Page 8: Data Management
 ```
 
 ---
@@ -78,26 +110,60 @@ Streamlit Dashboard (app.py)
 ```
 comp-benchmarking/
 ├── data/
-│   ├── technova_employees.csv      # 800 synthetic employees
-│   └── technova_job_grades.csv     # 150 job grade band definitions
+│   ├── technova_employees.csv            # 800 synthetic employees
+│   └── technova_job_grades.csv           # 150 job grade band definitions
 ├── docs/
-│   ├── TechNova_FRD_COMP001.docx   # BABOK-aligned FRD
+│   ├── TechNova_FRD_COMP001.docx         # BABOK-aligned FRD (FR-01 to FR-18)
 │   ├── TechNova_SOC_Crosswalk_XWALK001.xlsx  # SOC mapping artifact
-│   ├── openapi_bls_integration.yaml  # OpenAPI/Swagger spec (coming)
-│   └── uml_sequence_diagram.png      # Data flow diagram (coming)
-├── logs/                           # Pipeline run logs (git-ignored)
+│   ├── bls_oews_api.yaml                 # OpenAPI 3.0 Swagger spec (FR-17)
+│   ├── sequence_diagram.md               # UML sequence diagram — Mermaid (FR-18)
+│   └── screenshots/                      # Dashboard screenshots for README
+├── logs/                                 # Pipeline run logs (git-ignored)
 ├── pipeline/
 │   ├── __init__.py
-│   ├── csv_ingestion.py            # CSV → PostgreSQL loader
-│   ├── seed_reference_data.py      # SOC codes + crosswalk seeder
-│   └── bls_pipeline.py             # BLS API → PostgreSQL pipeline
-├── app.py                          # Streamlit dashboard (coming)
-├── .env                            # Credentials (git-ignored)
+│   ├── csv_ingestion.py                  # CSV → PostgreSQL loader + validator
+│   ├── seed_reference_data.py            # SOC codes + crosswalk seeder
+│   └── bls_pipeline.py                   # BLS API → PostgreSQL pipeline
+├── .streamlit/
+│   └── config.toml                       # Dark theme + TechNova brand color
+├── app.py                                # Streamlit dashboard — 8 pages
+├── requirements.txt                      # Python dependencies
+├── .env                                  # Credentials (git-ignored)
 ├── .gitignore
-├── CLAUDE.md                       # Project memory for AI coding sessions
-├── README.md                       # This file
-└── requirements.txt                # Python dependencies (coming)
+└── README.md                             # This file
 ```
+
+---
+
+## Dashboard Pages
+
+### Page 1 — Benchmarking View
+Filter by job family, level, and city to see TechNova's internal salary range (min/mid/max) alongside the BLS market range (P25/P50/P75) in a side-by-side grouped bar chart. Color-coded KPIs show gap $ and gap % vs market median. Match quality indicator shows SOC mapping confidence. Target: defensible market range in under 2 minutes (OBJ-01).
+
+### Page 2 — Market Position Flags
+All job grade combinations where TechNova's internal midpoint falls below the BLS P25 (below market) or above the BLS P75 (above market). Severity distribution chart shows gap concentration. Select All / Clear All filters for efficient family-level review.
+
+### Page 3 — Pay Equity Module
+Gender pay gap analysis by job family and level. Groups with fewer than 5 employees per gender are excluded. Gaps exceeding 5% are flagged for Total Rewards review. Framed as a monitoring tool — not a legal compliance determination (CON-06). Restricted audience: CHRO and Total Rewards.
+
+### Page 4 — Salary Distribution
+Box plots of actual employee salary distributions per job family, with BLS P25/P50/P75 benchmark lines overlaid. Supports gender split view. Summary statistics table by level. Shows spread, outliers, and where the workforce sits relative to market.
+
+### Page 5 — Geographic Pay Differentials
+Horizontal bar chart comparing BLS P50 for the same role across all 5 TechNova cities, with TechNova's internal midpoint as a reference line. City-by-city table shows vs 5-city average and vs TechNova midpoint in $ and %. Critical for geo-differential offer decisions.
+
+### Page 6 — Compa-Ratio Analysis
+Per-employee compa-ratio (actual salary ÷ grade midpoint) across all job families and levels. Histogram with target range shaded (0.85–1.15). Summary table with % below 0.85 and % above 1.15 by family/level. Industry-standard metric every compensation professional recognizes immediately.
+
+### Page 7 — Level Progression View
+Salary band staircase from L1 to L6 for any selected job family. Shaded band range (min–max) with midpoint line, overlaid with BLS P50 market median at each level. Commentary auto-generates: levels where market has outpaced the band are flagged for immediate review.
+
+### Page 8 — Data Management
+- Download CSV templates for employee and job grade data
+- Upload CSV → schema validation → confirm → load to database
+- Trigger BLS pipeline refresh from the browser (FR-02)
+- Pipeline run history — last 10 runs with status, record counts, timestamps
+- Data freshness indicator in sidebar — last BLS refresh + last CSV upload
 
 ---
 
@@ -116,22 +182,21 @@ cd comp-benchmarking
 
 ### 2. Install dependencies
 ```bash
-python -m pip install streamlit psycopg2-binary python-dotenv pandas requests plotly
+pip install -r requirements.txt
 ```
 
 ### 3. Set up the database
-Create a new Supabase project, then paste the contents of `docs/schema.sql` into the Supabase SQL Editor and run it. This creates all 8 tables.
+Create a new Supabase project, open the SQL Editor, paste and run the schema SQL.
 
 ### 4. Configure environment variables
-Copy `.env.example` to `.env` and fill in your values:
+Create a `.env` file in the project root:
 ```
-DB_HOST=aws-1-us-east-1.pooler.supabase.com
+DB_HOST=your-supabase-host
 DB_PORT=5432
 DB_NAME=postgres
-DB_USER=postgres.[your-project-ref]
-DB_PASSWORD=[your-supabase-password]
-BLS_API_BASE_URL=https://api.bls.gov/publicAPI/v2
-BLS_REGISTRATION_KEY=[your-bls-key]
+DB_USER=postgres
+DB_PASSWORD=your-supabase-password
+BLS_REGISTRATION_KEY=your-bls-key
 BLS_SURVEY_YEAR=2024
 DATA_DIR=./data
 LOG_DIR=./logs
@@ -139,13 +204,8 @@ LOG_DIR=./logs
 
 ### 5. Run the pipelines in order
 ```bash
-# Load internal data
 python -m pipeline.csv_ingestion
-
-# Seed SOC reference data and crosswalk
 python -m pipeline.seed_reference_data
-
-# Pull BLS wage data
 python -m pipeline.bls_pipeline
 ```
 
@@ -156,35 +216,45 @@ python -m streamlit run app.py
 
 ---
 
-## Data Pipeline Detail
+## Portfolio Artifacts
 
-### BLS OEWS Series ID Format
+| Artifact | File | Traces To |
+|---|---|---|
+| Functional Requirements Document | `docs/TechNova_FRD_COMP001.docx` | All FRs |
+| SOC Code Crosswalk | `docs/TechNova_SOC_Crosswalk_XWALK001.xlsx` | FR-08 |
+| OpenAPI / Swagger Spec | `docs/bls_oews_api.yaml` | FR-17 |
+| UML Sequence Diagram | `docs/sequence_diagram.md` | FR-18 |
+| Live Dashboard | [streamlit.app link](https://comp-benchmarking-hadimercer-ps2.streamlit.app/) | FR-11 to FR-16 |
+
+---
+
+## BLS OEWS Series ID Format
+
 The BLS OEWS API uses a 25-character series identifier:
 
 ```
-O  E  U  M  0  0  1  9  7  4  0  0  0  0  0  0  0  1  5  1  2  5  2  0  3
-1  2  3  4  5  6  7  8  9  10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
-|prefix| adj|type|----area code----|----industry----|---occupation---|dtype|
-  OE    U    M    0019740            000000            151252          03
+O E U M {area_code} {industry} {occupation} {data_type}
+│       │ │          │          │             └─ 001=mean, 204=P25, 206=P50, 208=P75
+│       │ │          │          └─────────────── SOC code (no hyphen, 5 digits)
+│       │ │          └────────────────────────── 000000 = all industries
+│       │ └───────────────────────────────────── MSA code (7 digits, zero-padded)
+│       └───────────────────────────────────────  M = MSA-level geography
+└─────────────────────────────────────────────── OEU = OEWS survey prefix
 ```
 
-| Position | Value | Meaning |
-|---|---|---|
-| 1-2 | `OE` | OEWS prefix |
-| 3 | `U` | Unadjusted (seasonal) |
-| 4 | `M` | MSA area type |
-| 5-11 | `0019740` | Denver MSA code, zero-padded to 7 digits |
-| 12-17 | `000000` | All industries |
-| 18-23 | `151252` | SOC code digits, no dash, zero-padded to 6 |
-| 24-25 | `03` | Annual mean wage |
+> **Critical:** Position 4 must be `M` for MSA-level data.
 
-**Data type codes**: `03`=mean, `11`=P10, `12`=P25, `13`=P50, `14`=P75, `15`=P90
+---
 
-### The 5 TechNova MSAs
-Austin TX (12420) · New York NY (35620) · San Francisco CA (41860) · Washington DC (47900) · Denver CO (19740)
+## The 5 TechNova MSAs
 
-### The 20 SOC Codes
-Covers all TechNova job families: Software Engineering, Data & Analytics, Product Management, Clinical Informatics/Health IT, UX/Design, DevOps/Platform/SRE, IT/Systems Administration, Sales & Account Management, Corporate.
+| City | MSA Code |
+|---|---|
+| Austin TX | 12420 |
+| New York NY | 35620 |
+| San Francisco CA | 41860 |
+| Washington DC | 47900 |
+| Denver CO | 19740 |
 
 ---
 
@@ -192,38 +262,24 @@ Covers all TechNova job families: Software Engineering, Data & Analytics, Produc
 
 | ID | Requirement | Status |
 |---|---|---|
-| FR-01 | BLS API pull — wage percentiles + MSA filter | ✅ Done |
-| FR-02 | Quarterly manual trigger, documented run procedure | ✅ Done |
-| FR-03 | Pipeline run log — timestamp + record count + status | ✅ Done |
-| FR-04 | Schema change + HTTP error detection | ✅ Done |
-| FR-05 | CSV flat file load to PostgreSQL | ✅ Done |
-| FR-06 | Schema validation before write | ✅ Done |
-| FR-07 | Documented CSV template | ✅ Done |
-| FR-08 | Job-to-SOC crosswalk table | ✅ Done |
-| FR-09 | MSA-level geographic wage storage | ✅ Done |
-| FR-10 | Full data dictionary | ✅ Done (Excel artifact) |
-| FR-11 | Dashboard: filter → market range | 🔲 In progress |
-| FR-12 | Dashboard: internal vs market side-by-side | 🔲 In progress |
-| FR-13 | Dashboard: percentile toggle P25/P50/P75 | 🔲 In progress |
-| FR-14 | Dashboard: below-market flags view | 🔲 In progress |
-| FR-15 | Dashboard: pay equity gap flags (gender) | 🔲 In progress |
-| FR-16 | Dashboard: data freshness indicator | 🔲 In progress |
-| FR-17 | OpenAPI/Swagger spec for BLS integration | 🔲 Queued |
-| FR-18 | UML sequence diagram — end-to-end data flow | 🔲 Queued |
-
----
-
-## Key Design Decisions
-
-**Streamlit over Power BI**: Power BI Service requires a Pro license ($10/mo) for public report sharing — which creates an access wall for portfolio reviewers. Streamlit Community Cloud is free, produces a public URL instantly, and is Python-native.
-
-**Session pooler over direct Supabase connection**: The direct `db.[ref].supabase.co` host failed DNS resolution on Windows. Supabase's session pooler (`aws-1-us-east-1.pooler.supabase.com`) works reliably and supports full transaction semantics needed for our rollback logic.
-
-**BLS OEWS only (no commercial surveys)**: Radford, Mercer, and WTW data requires paid licenses. BLS OEWS is public, annually refreshed, and sufficient for portfolio demonstration. SOC-level aggregation limitations are documented in the crosswalk and surfaced in the dashboard.
-
-**Fail loudly on validation**: The pipeline rejects the entire CSV file if any validation rule fails — no silent partial loads. This is a non-negotiable data quality standard for a compensation system where decisions are made against the data.
-
-**SRE mapped to 15-1252 (Software Developers), not 15-1244 (Network/SysAdmin)**: SRE roles are intentionally split from DevOps because SRE work is software-heavy by task definition. This is a documented crosswalk decision (XW-021).
+| FR-01 | BLS API pull — wage percentiles + MSA filter | ✅ |
+| FR-02 | Quarterly manual trigger | ✅ |
+| FR-03 | Pipeline run log | ✅ |
+| FR-04 | Error detection | ✅ |
+| FR-05 | CSV load to PostgreSQL | ✅ |
+| FR-06 | Schema validation before write | ✅ |
+| FR-07 | CSV template | ✅ |
+| FR-08 | Job-to-SOC crosswalk | ✅ |
+| FR-09 | MSA-level geographic wage storage | ✅ |
+| FR-10 | Data dictionary | ✅ |
+| FR-11 | Filter: family + level + location → range | ✅ |
+| FR-12 | Internal vs market side-by-side view | ✅ |
+| FR-13 | Percentile toggle (P25 / P50 / P75) | ✅ |
+| FR-14 | Below-market flags view | ✅ |
+| FR-15 | Pay equity gap flags view | ✅ |
+| FR-16 | Data freshness indicator | ✅ |
+| FR-17 | OpenAPI/Swagger spec for BLS integration | ✅ |
+| FR-18 | UML sequence diagram — end-to-end data flow | ✅ |
 
 ---
 
@@ -244,6 +300,6 @@ This is **Smaller Project 2 (S2)** of a 6-project BA portfolio:
 
 ## Contact
 
-**Hadi Mercer**
-LinkedIn: [linkedin.com/in/hadimercer](https://linkedin.com/in/hadimercer)
+**Hadi Mercer**  
+LinkedIn: [linkedin.com/in/hadimercer](https://linkedin.com/in/hadimercer)  
 GitHub: [github.com/hadimercer](https://github.com/hadimercer)
