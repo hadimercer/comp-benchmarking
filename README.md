@@ -11,7 +11,7 @@ A full-stack data pipeline and interactive dashboard that pulls real wage data f
 ## Live Demo
 
 🔗 **Dashboard:** [comp-benchmarking-hadimercer-ps2.streamlit.app](https://comp-benchmarking-hadimercer-ps2.streamlit.app/)  
-📁 **Portfolio Hub:** [hadimercer.github.io](https://hadimercer.github.io)
+📁 **Portfolio Hub:** [github.com/hadimercer](https://github.com/hadimercer)
 
 ---
 
