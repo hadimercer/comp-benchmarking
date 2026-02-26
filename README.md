@@ -56,6 +56,20 @@ A full-stack data pipeline and interactive dashboard that pulls real wage data f
 
 ---
 
+## Technology Decision — Power BI → Streamlit
+
+The original FRD (`docs/TechNova_FRD_COMP001.docx`) specifies a Power BI dashboard as the v1 front-end deliverable. During the build phase, the decision was made to implement the dashboard in Streamlit instead. This was a deliberate trade-off, not an oversight.
+
+**Rationale:**
+
+- **Cost:** Power BI Service requires a paid Pro licence (approx. $10–14/user/month) for external sharing and public deployment. As a portfolio project that will not be used in a production environment, this licence cost was not justified. Streamlit Community Cloud provides free, permanent public deployment with no licence requirement.
+- **Accessibility:** A publicly accessible live URL is significantly more valuable for a portfolio than a report that requires the reviewer to have a Power BI account or access a shared workspace. Anyone can open the live Streamlit app in a browser without credentials.
+- **Visualization complexity:** The chart types required for this project — grouped bar charts, box plots, histograms, geographic comparison charts, and compa-ratio distributions — are all achievable with Plotly and Streamlit's native layout. The interactive functionality required (multi-filter, percentile toggle, drill-down by job family and level) did not require Power BI-specific features such as DAX or complex data model relationships.
+
+**What this means for the FRD:** The FRD remains accurate for all functional and non-functional requirements. The technology implementation differs from the original specification in the front-end layer only. In a real project context, this change would be captured in a formal change request. For this portfolio build, the decision is documented here and does not affect the requirements traceability — all FR-11 through FR-16 dashboard requirements are fully implemented in Streamlit.
+
+---
+
 ## Project Architecture
 
 ```
@@ -280,6 +294,41 @@ O E U M {area_code} {industry} {occupation} {data_type}
 | FR-16 | Data freshness indicator | ✅ |
 | FR-17 | OpenAPI/Swagger spec for BLS integration | ✅ |
 | FR-18 | UML sequence diagram — end-to-end data flow | ✅ |
+
+---
+
+## Continuous Improvement Roadmap
+
+This project is actively maintained as part of an ongoing BA portfolio. The v1 scope was deliberately bounded to demonstrate full-stack delivery within a realistic timeline. The following enhancements are planned for future iterations and will be implemented progressively.
+
+### Phase 2 — Data & Integration
+
+| Enhancement | Description | Priority |
+|---|---|---|
+| HRIS Integration | Replace CSV ingestion with a live API connection to Workday or BambooHR, enabling automated sync rather than manual upload | High |
+| Commercial Survey Data | Integrate a third-party compensation survey source (Radford, Mercer, or Willis Towers Watson equivalent) as a secondary market benchmark alongside BLS | Medium |
+| Real-Time BLS Refresh | Automate the BLS pipeline refresh on a scheduled cron trigger rather than manual browser-initiated execution | Medium |
+| International Pay Modeling | Extend the geographic module beyond US MSAs to support international locations with geo-differential modeling | Low |
+
+### Phase 3 — Analytics & Workflow
+
+| Enhancement | Description | Priority |
+|---|---|---|
+| Total Compensation Benchmarking | Expand beyond base salary to include bonus targets, equity ranges, and benefits value for a total rewards comparison view | High |
+| Predictive Attrition Flags | Surface employees in roles where internal pay is below P25 and flag for retention risk based on tenure and performance tier | Medium |
+| Manager Self-Service View | Read-only filtered view scoped to a manager's direct team, enabling offer conversation preparation without exposing full org data | Medium |
+| Pay Equity Trend Analysis | Track gender pay gap movement over time as new employee data is loaded, enabling year-over-year equity monitoring | Medium |
+| Offer Scenario Modeler | Interactive module allowing recruiters to model offer scenarios against market percentiles before submitting for approval | Low |
+
+### Phase 4 — Documentation & BA Artifacts
+
+| Enhancement | Description | Priority |
+|---|---|---|
+| Power BI Version | Build a parallel Power BI implementation of the core benchmarking and flagging views to demonstrate cross-tool BI capability | Medium |
+| UML Sequence Diagram → HTML | Convert the current Mermaid sequence diagram to a rendered interactive HTML artifact, consistent with the Meridian project format | Low |
+| Updated FRD with Change Log | Formally update the FRD to reflect the Power BI → Streamlit technology decision with a signed-off change request section | Low |
+
+> **Note on portfolio maintenance:** These enhancements will be implemented and documented as skills are developed across the broader 6-project portfolio. Each Phase 2+ feature that is built will be accompanied by updated requirements documentation to maintain traceability discipline.
 
 ---
 
